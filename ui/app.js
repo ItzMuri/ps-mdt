@@ -780,7 +780,7 @@ $(document).ready(() => {
           <p><em>· [Insert List Here]</em></p>
           <p>&nbsp;</p>
           <p>-----</p>
-          <p><strong style="background-color: var(--color-1);">💸 Fine:</strong></p>
+          <p><strong style="background-color: #495057;">💸 Fine:</strong></p>
           <p>&nbsp;</p>
           <p><strong>⌚ Sentence:</strong></p>
           <p>-----</p>
@@ -1375,11 +1375,11 @@ $(document).ready(() => {
             <p><em>· [Enter List Of Injuries Here]</em><br></p>
             <p>&nbsp;</p>
             <p>-----</p>
-            <p><strong style="background-color: var(--color-1);">Additional Attending:</strong><br></p>
+            <p><strong style="background-color: #495057;">Additional Attending:</strong><br></p>
             <p><em>· [ List Any Other Staff Here ]</em></p>
-            <p><strong style="background-color: var(--color-1);">🧑‍🤝‍🧑 Additional Emergency Contacts:</strong><br></p>
+            <p><strong style="background-color: #495057;">🧑‍🤝‍🧑 Additional Emergency Contacts:</strong><br></p>
             <p><em>· [ Name And Number ]</em></p>
-            <p><strong style="background-color: var(--color-1);">Notes:</strong><br></p>
+            <p><strong style="background-color: #495057;">Notes:</strong><br></p>
             <p><em>· [Additional Notes Here]</em></p>
             <p>-----</p>
         </div>
@@ -4215,7 +4215,7 @@ window.addEventListener("message", function (event) {
         }
         let status = unit.duty == 1 ? "10-8" : '10-7';
         let statusColor = unit.duty == 1 ? "green-status" : 'yellow-status';
-        let radioBack = unit.sig100 ? "#7b2c2c" : "var(--color-3)";
+        let radioBack = unit.sig100 ? "#7b2c2c" : "#909296";
         let radio = unit.radio ? unit.radio : "0";
         let callSign = unit.callSign ? unit.callSign : "000";
         let activeInfoJob = `<div class="unit-job active-info-job-unk">UNKNOWN</div>`;
@@ -5788,7 +5788,7 @@ center: [0, -1024],
 maxBoundsViscosity: 1.0
 });
 
-var customImageUrl = 'https://i.imgur.com/EdOZjzF.jpg';
+var customImageUrl = 'https://cdn.discordapp.com/attachments/1057280333399199764/1227266280436793444/EdOZjzF_-_Imgur.jpg?ex=6627c7ca&is=661552ca&hm=f5228e6355aa23d97fee9286020a72434d913d23c522f4f4c9191db2756549e2&';
 
 var sw = map.unproject([0, 1024], 3 - 1);
 var ne = map.unproject([1024, 0], 3 - 1);
