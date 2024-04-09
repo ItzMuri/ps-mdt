@@ -34,8 +34,9 @@ input::-webkit-inner-spin-button {
 }
 
 .dashboard-page-container  {
-    background-color: var(--color-9);
-    border-radius: 15px;
+    background-color: #373A40;
+    border: 4px solid #c1c2c55d;
+    border-radius: 25px;
     position: absolute; 
     width: 96.5%;
     height: 96.5%;
@@ -51,8 +52,9 @@ input::-webkit-inner-spin-button {
 }
 
 .profile-page-container {
-    background-color: var(--color-9);
-    border-radius: 15px;
+    background-color: #373A40;
+    border: 4px solid #c1c2c55d;
+    border-radius: 25px;
     position: absolute; 
     width: 96.5%;
     height: 96.5%;
@@ -62,8 +64,9 @@ input::-webkit-inner-spin-button {
 }
 
 .incidents-page-container {
-    background-color: var(--color-9);
-    border-radius: 15px;
+    background-color: #373A40;
+    border: 4px solid #c1c2c55d;
+    border-radius: 25px;
     position: absolute; 
     width: 96.5%;
     height: 96.5%;
@@ -73,8 +76,9 @@ input::-webkit-inner-spin-button {
 }
 
 .bolos-page-container {
-    background-color: var(--color-9);
-    border-radius: 15px;
+    background-color: #373A40;
+    border: 4px solid #c1c2c55d;
+    border-radius: 25px;
     position: absolute; 
     width: 96.5%;
     height: 96.5%;
@@ -84,8 +88,9 @@ input::-webkit-inner-spin-button {
 }
 
 .reports-page-container {
-    background-color: var(--color-9);
-    border-radius: 15px;
+    background-color: #373A40;
+    border: 4px solid #c1c2c55d;
+    border-radius: 25px;
     position: absolute; 
     width: 96.5%;
     height: 96.5%;
@@ -95,8 +100,9 @@ input::-webkit-inner-spin-button {
 }
 
 .penalcode-page-container {
-    background-color: var(--color-9);
-    border-radius: 15px;
+    background-color: #373A40;
+    border: 4px solid #c1c2c55d;
+    border-radius: 25px;
     position: absolute; 
     width: 96.5%;
     height: 96.5%;
@@ -106,8 +112,9 @@ input::-webkit-inner-spin-button {
 }
 
 .sop-page-container {
-    background-color: var(--color-9);
-    border-radius: 15px;
+    background-color: #373A40;
+    border: 4px solid #c1c2c55d;
+    border-radius: 25px;
     position: absolute; 
     width: 96.5%;
     height: 96.5%;
@@ -117,8 +124,9 @@ input::-webkit-inner-spin-button {
 }
 
 .dmv-page-container {
-    background-color: var(--color-9);
-    border-radius: 15px;
+    background-color: #373A40;
+    border: 4px solid #c1c2c55d;
+    border-radius: 25px;
     position: absolute; 
     width: 96.5%;
     height: 96.5%;
@@ -128,8 +136,9 @@ input::-webkit-inner-spin-button {
 }
 
 .weapons-page-container {
-    background-color: var(--color-9);
-    border-radius: 15px;
+    background-color: #373A40;
+    border: 4px solid #c1c2c55d;
+    border-radius: 25px;
     position: absolute; 
     width: 96.5%;
     height: 96.5%;
@@ -139,8 +148,10 @@ input::-webkit-inner-spin-button {
 }
 
 .stafflogs-page-container  {
-    background-color: var(--color-9);
-    border-radius: 15px;
+    background-color: #373A40;
+    border: 4px solid #c1c2c55d;
+    border-radius: 25px;
+    border: 4px solid #c1c2c55d;
     position: absolute; 
     width: 96.5%;
     height: 96.5%;
@@ -151,8 +162,9 @@ input::-webkit-inner-spin-button {
 }
 
 .container-load {
-    background-color: var(--color-9);
-    border-radius: 15px;
+    background-color: #373A40;
+    border: 4px solid #c1c2c55d;
+    border-radius: 25px;
     position: absolute; 
     width: 96.5%;
     height: 96.5%;
@@ -162,14 +174,14 @@ input::-webkit-inner-spin-button {
 }
 
 .header {
-    height: 4vh;
-    background-color: var(--color-1);
-    border: 5px solid #393B39;
+    height: 6vh;
+    background-color: #495057;
+    border: 5px solid #c1c2c55d;
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
     width: 96.5%;
     position: absolute;
-    top: 4vh;
+    top: 3vh;
     display: flex;
     align-items: center;
     user-select: none;
@@ -184,9 +196,10 @@ input::-webkit-inner-spin-button {
 }
 
 .header-middle {
-    background-color: var(--color-2);
-    border-radius: 15px;
-    border: 5px solid #393B39;
+    background-color: #38d9a979;
+    border: 4px solid #c1c2c55d;
+    border-radius: 25px;
+    border: 5px solid #c1c2c55d;
     width: fit-content;
     height: 3.5vh;
     padding: 8px;
@@ -198,7 +211,7 @@ input::-webkit-inner-spin-button {
     align-items: normal;
     color: white;
     margin: auto;
-    margin-top: -10px;
+    margin-top: -0px;
     font-size: 15px;
 }
 
@@ -212,7 +225,7 @@ input::-webkit-inner-spin-button {
 }
 
 .main-container {
-    border-top: 5px solid var(--color-3);
+    border-top: 5px solid #909296;
     width: 100%;
     height: 86%;
     position: absolute;
@@ -221,46 +234,53 @@ input::-webkit-inner-spin-button {
 }
 
 .nav-menu {
-    background-color: var(--color-1);
-    border-right: 5px solid var(--color-3);
-    min-width: 22.5vh;
-    height: 100%;
+    background-color: #495057;
+    min-width: 25.5vh;
+    height: 97.6%;
     display: flex;
     flex-direction: column;
     user-select: none;
-    border-bottom-left-radius: 15px;
+    margin-top: 11px;
+    margin-left: 8px;
+     border: 1px solid #c1c2c5a9;
+    border-bottom-left-radius: 22px;
 }
 
 .nav-item {
-    background-color: var(--color-4);
+    background-color: #141517;
     margin-top: 10px;
     padding: 10px;
+    border: 2px solid #c1c2c5a9;
+    border: 4px solid #c1c2c55d;
+    border-radius: 25px;
     color: white;
+    margin-right: 6px;
+    margin-left: 6px;
     font-size: 18px;
     font-weight: bolder;
 }
 
 .nav-item:hover {
-    background-color: var(--color-3);
+    background-color: #909296;
 }
 
 .active-nav {
-    background-color: var(--color-3);
+    background-color:#20c996a8;
 }
 
 .warrants-container {
-    background-color: var(--color-1);
-    border: 2px solid var(--color-3);
+    background-color: #495057;
+    border: 1px solid #c1c2c55d;
     display: flex;
     flex-direction: column;
-    height: 80.7vh;
+    height: 80vh;
     width: 50vh;
-    margin-top: 10px;
+    margin-top: 6px;
     margin-left: 10px;
 }
 
 .warrants-title {
-    background-color: var(--color-4);
+    background-color: #909296;
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -287,11 +307,11 @@ input::-webkit-inner-spin-button {
     margin: auto;
     margin-top: 10px;
     width: 95%;
-    height: 55vh;
+    height: 54vh;
 }
 
 .warrants-item {
-    background-color: var(--color-5);
+    background-color: #141517;
     width: 100%;
     margin: auto;
     margin-bottom: 10px;
@@ -301,7 +321,7 @@ input::-webkit-inner-spin-button {
 }
 
 .warrants-item:hover {
-    background-color: var(--color-3);
+    background-color: #909296;
 }
 
 .warrant-image {
@@ -344,8 +364,8 @@ input::-webkit-inner-spin-button {
 }
 
 .quotes-container {
-    background-color: var(--color-1);
-    border: 2px solid var(--color-3);
+    background-color: #495057;
+    border: 1px solid #c1c2c55d;
     width: 50vh;
     height: 75px;
     margin-top: 10px;
@@ -357,7 +377,7 @@ input::-webkit-inner-spin-button {
 
 .quote-title {
     font-size: 14px;
-    background-color: var(--color-4);
+    background-color: #909296;
     padding: 5px;
     margin: 10px 0px 10px 10px;
     text-align: center;
@@ -373,7 +393,7 @@ input::-webkit-inner-spin-button {
     margin-left: 10px;
     /* margin-bottom: 25px; */
     width: 100%;
-    background-color: var(--color-5);
+    background-color: #141517;
     height: 30px;
     padding: 10px;
     text-align: center;
@@ -388,8 +408,8 @@ input::-webkit-inner-spin-button {
 }
 
 .bulletin-container {
-    background-color: var(--color-1);
-    border: 2px solid var(--color-3);
+    background-color: #495057;
+    border: 1px solid #c1c2c55d;
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -402,7 +422,7 @@ input::-webkit-inner-spin-button {
 }
 
 .bulletin-title {
-    background-color: var(--color-4);
+    background-color: #909296;
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -429,7 +449,7 @@ input::-webkit-inner-spin-button {
 }
 
 .bulletin-item {
-    background-color: var(--color-5);
+    background-color: #141517;
     width: 45vh;
     /* min-height: 7.7vh; */
     /* height: 7.7vh; */
@@ -440,7 +460,7 @@ input::-webkit-inner-spin-button {
 }
 
 .bulletin-item:hover {
-    background-color: var(--color-3);
+    background-color: #909296;
 }
 
 .bulletin-item-title {
@@ -500,19 +520,20 @@ span.bulletin-item-info[contenteditable]:empty::before {
 }
 
 .dispatch-container {
-    background-color: var(--color-1);
-    border: 2px solid var(--color-3);
+    background-color: #495057;
+    border: 1px solid #c1c2c55d;
     display: flex;
     flex-direction: column;
     height: 81.1vh;
     width: 50vh;
     margin-top: 10px;
     margin-left: 10px;
-    margin-right: 15px;
+    margin-right: 8px;
+    border-bottom-right-radius: 22px;
 }
 
 .dispatch-title {
-    background-color: var(--color-4);
+    background-color: #909296;
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -528,7 +549,7 @@ span.bulletin-item-info[contenteditable]:empty::before {
 }
 
 .active-unit-title {
-    background-color: var(--color-3);
+    background-color: #909296;
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -547,7 +568,7 @@ span.bulletin-item-info[contenteditable]:empty::before {
 }
 
 .active-unit-count {
-    background-color: var(--color-3);
+    background-color: #909296;
     color: white;
     font-weight: bolder;
     font-size: 14px;
@@ -566,7 +587,7 @@ span.bulletin-item-info[contenteditable]:empty::before {
 }
 
 .calls-title {
-    background-color: var(--color-3);
+    background-color: #909296;
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -629,7 +650,7 @@ background-color: #2589cc;
     padding-right: 10px;
     padding-left: 10px;
     /* height: 3vh; */
-    background-color: var(--color-5);
+    background-color: #141517;
     display: flex;
     align-items: center;
     margin-bottom: 5px;
@@ -647,7 +668,7 @@ background-color: #2589cc;
 
     padding: 10px;
     height: 3vh;
-    background-color: var(--color-5);
+    background-color: #141517;
     display: flex;
     align-items: center;
     margin-bottom: 5px;
@@ -723,7 +744,7 @@ background-color: #2589cc;
     font-size: 12px;
     font-weight: bolder;
     color: white;
-    background-color: var(--color-3);
+    background-color: #909296;
     padding: 5px;
     padding-left: 12.5px;
     padding-right: 12.5px;
@@ -739,11 +760,12 @@ background-color: #2589cc;
     display: flex;
     flex-direction: column;
     width: 95%;
+    
 }
 
 .active-calls-item {
     height: fit-content;
-    background-color: var(--color-5);
+    background-color: #141517;
     display: flex;
     align-items: center;
     margin-bottom: 5px;
@@ -820,7 +842,7 @@ background-color: #2589cc;
     font-size: 15px;
     font-weight: bolder;
     color: white;
-    background-color: var(--color-3);
+    background-color: #909296;
     padding: 5px;
     padding-left: 12.5px;
     padding-right: 12.5px;
@@ -880,8 +902,8 @@ a {
 }
 
 .profile-container {
-    background-color: var(--color-1);
-    border: 2px solid var(--color-3);
+    background-color: #495057;
+    border: 1px solid #c1c2c55d;
     display: flex;
     flex-direction: column;
     height: 80.7vh;
@@ -893,7 +915,7 @@ a {
 
 
 .profile-title {
-    background-color: var(--color-4);
+    background-color: #909296;
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -909,11 +931,11 @@ a {
 }
 
 .profile-title:hover {
-    background-color: var(--color-3);
+    background-color: #909296;
 }
 
 .profile-search-input {
-    background-color: var(--color-3);
+    background-color: #909296;
     color: white;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -953,7 +975,7 @@ a {
 }
 
 .profile-item {
-    background-color: var(--color-5);
+    background-color: #141517;
     width: 100%;
     height: 12vh;
     margin: auto;
@@ -965,7 +987,7 @@ a {
 }
 
 .profile-item:hover {
-    background-color: var(--color-3);
+    background-color: #909296;
 }
 
 .profile-image {
@@ -1026,8 +1048,8 @@ a {
 }
 
 .manage-profile-container {
-    background-color: var(--color-1);
-    border: 2px solid var(--color-3);
+    background-color: #495057;
+    border: 1px solid #c1c2c55d;
     display: flex;
     flex-direction: column;
     height: 80.7vh;
@@ -1037,7 +1059,7 @@ a {
 }
 
 .manage-profile-title {
-    background-color: var(--color-4);
+    background-color: #909296;
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -1053,7 +1075,7 @@ a {
 }
 
 .manage-profile-editing-title {
-    background-color: var(--color-3);
+    background-color: #909296;
     color: white;
     font-size: 15px;
     font-weight: lighter;
@@ -1135,7 +1157,7 @@ a {
 }
 
 .line {
-    background-color: var(--color-3);
+    background-color: #909296;
     height: 2px;
     margin-left: 10px;
     margin-bottom: 10px;
@@ -1253,7 +1275,7 @@ a {
     outline: none;
     height: 100%;
     resize: none;
-    background-color: var(--color-5);
+    background-color: #141517;
     color: white;
     font-size: 16px;
     padding: 10px;
@@ -1279,14 +1301,14 @@ a {
 }
 
 .manage-profile-licenses-container {
-    background-color: var(--color-1);
+    background-color: #495057;
     width: 100%;
-    border: 2px solid var(--color-3);
+    border: 1px solid #c1c2c55d;
     height: 20%;
 }
 
 .license-title {
-    background-color: var(--color-4);
+    background-color: #909296;
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -1329,10 +1351,10 @@ a {
 .manage-profile-tags-container {
     display: flex;
     flex-direction: column;
-    background-color: var(--color-1);
+    background-color: #495057;
     width: 100%;
     height: 20%;
-    border: 2px solid var(--color-3);
+    border: 1px solid #c1c2c55d;
     margin-top: 5px;
     min-height: 100px;
     max-height: 200px;
@@ -1340,7 +1362,7 @@ a {
 }
 
 .tags-title {
-    background-color: var(--color-4);
+    background-color: #909296;
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -1357,7 +1379,7 @@ a {
 }
 
 .tags-add-btn {
-    background-color: var(--color-4);
+    background-color: #909296;
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -1372,7 +1394,7 @@ a {
 }
 
 .tags-add-btn:hover {
-    background-color: var(--color-3);
+    background-color: #909296;
 }
 
 .tags-holder {
@@ -1430,17 +1452,17 @@ span.tag-input[contenteditable]:empty::before {
 .manage-profile-vehs-container {
     display: flex;
     flex-direction: column;
-    background-color: var(--color-1);
+    background-color: #495057;
     width: 100%;
     height: 20%;
-    border: 2px solid var(--color-3);
+    border: 1px solid #c1c2c55d;
     margin-top: 5px;
     max-height: 150px;
     overflow: scroll;
 }
 
 .vehs-title {
-    background-color: var(--color-4);
+    background-color: #909296;
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -1484,17 +1506,17 @@ span.tag-input[contenteditable]:empty::before {
 .manage-profile-houses-container {
     display: flex;
     flex-direction: column;
-    background-color: var(--color-1);
+    background-color: #495057;
     width: 100%;
     height: 20%;
-    border: 2px solid var(--color-3);
+    border: 1px solid #c1c2c55d;
     margin-top: 5px;
     max-height: 150px;
     overflow: scroll;
 }
 
 .houses-title {
-    background-color: var(--color-4);
+    background-color: #909296;
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -1538,16 +1560,16 @@ span.tag-input[contenteditable]:empty::before {
 .manage-profile-gallery-container {
     display: flex;
     flex-direction: column;
-    background-color: var(--color-1);
+    background-color: #495057;
     width: 100%;
-    border: 2px solid var(--color-3);
+    border: 1px solid #c1c2c55d;
     margin-top: 5px;
     height: 20%;
     overflow: scroll;
 }
 
 .gallery-title {
-    background-color: var(--color-4);
+    background-color: #909296;
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -1564,7 +1586,7 @@ span.tag-input[contenteditable]:empty::before {
 }
 
 .gallery-add-btn {
-    background-color: var(--color-4);
+    background-color: #909296;
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -1579,7 +1601,7 @@ span.tag-input[contenteditable]:empty::before {
 }
 
 .gallery-add-btn:hover {
-    background-color: var(--color-3);
+    background-color: #909296;
 }
 
 .gallery-inner-container {
@@ -1605,7 +1627,7 @@ span.tag-input[contenteditable]:empty::before {
 }
 
 .convictions-known-container, .incidents-known-container {
-    background-color: var(--color-5);
+    background-color: #141517;
     width: 95vh;
     height: 45vh;
     margin: auto;
@@ -1617,7 +1639,7 @@ span.tag-input[contenteditable]:empty::before {
 }
 
 .convictions-known-title, .incidents-known-title {
-    background-color: var(--color-4);
+    background-color: #909296;
     color: white;
     font-size: 20px;
     font-weight: bolder;
@@ -1632,8 +1654,8 @@ span.tag-input[contenteditable]:empty::before {
 }
 
 .convictions-title {
-    background-color: var(--color-1);
-    border: 2px solid var(--color-3);
+    background-color: #495057;
+    border: 1px solid #c1c2c55d;
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -1649,7 +1671,7 @@ span.tag-input[contenteditable]:empty::before {
 }
 
 .convictions-title:hover {
-    background-color: var(--color-3);
+    background-color: #909296;
 }
 
 .convictions-holder {
@@ -1662,8 +1684,8 @@ span.tag-input[contenteditable]:empty::before {
 }
 
 .profile-incidents-title {
-    background-color: var(--color-1);
-    border: 2px solid var(--color-3);
+    background-color: #495057;
+    border: 1px solid #c1c2c55d;
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -1679,7 +1701,7 @@ span.tag-input[contenteditable]:empty::before {
 }
 
 .profile-incidents-title:hover {
-    background-color: var(--color-3);
+    background-color: #909296;
 }
 
 .profile-incidents-holder {
@@ -1708,9 +1730,9 @@ span.tag-input[contenteditable]:empty::before {
     z-index: 1;
     width: 120px;
     height: 120px;
-    border: 12px solid var(--color-1);
+    border: 12px solid #495057;
     border-radius: 50%;
-    border-top: 12px solid var(--color-3);
+    
     -webkit-animation: spin 2s linear infinite;
     animation: spin 2s linear infinite;
 }
@@ -1722,9 +1744,9 @@ span.tag-input[contenteditable]:empty::before {
     z-index: 1;
     width: 120px;
     height: 120px;
-    border: 12px solid var(--color-4);
+    border: 12px solid #909296;
     border-radius: 50%;
-    border-top: 12px solid var(--color-3);
+    
     -webkit-animation: spin 2s linear infinite;
     animation: spin 2s linear infinite;
 }
@@ -1755,8 +1777,8 @@ span.tag-input[contenteditable]:empty::before {
     width: fit-content;
     padding: 2px;
     margin: 0;
-    border: 1px solid var(--color-3);
-    background: var(--color-5);
+    border: 1px solid #909296;
+    background: #141517;
     z-index: 9999;
     border-radius: 3px;
     box-shadow: 1px 1px 4px rgba(0,0,0,.2);
@@ -1856,23 +1878,23 @@ span.tag-input[contenteditable]:empty::before {
 }
 
 .view-incident:hover {
-    background-color: var(--color-3);
+    background-color: #909296;
 }
 
 .view-incident2:hover {
-    background-color: var(--color-3);
+    background-color: #909296;
 }
 
 .make-waypoint:hover {
-    background-color: var(--color-3);
+    background-color: #909296;
 }
 
 .view-profile:hover {
-    background-color: var(--color-3);
+    background-color: #909296;
 }
 
 .gallery-upload-input {
-    background-color: var(--color-3);
+    background-color: #909296;
     color: white;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -1901,8 +1923,8 @@ span.tag-input[contenteditable]:empty::before {
 }
 
 .penalcode-embed {
-    background-color: var(--color-1);
-    border: 2px solid var(--color-3);
+    background-color: #495057;
+    border: 1px solid #c1c2c55d;
     display: flex;
     flex-direction: column;
     height: 96.5%;
@@ -1920,8 +1942,8 @@ span.tag-input[contenteditable]:empty::before {
 }
 
 .sop-embed {
-    background-color: var(--color-1);
-    border: 2px solid var(--color-3);
+    background-color: #495057;
+    border: 1px solid #c1c2c55d;
     display: flex;
     flex-direction: column;
     height: 96.5%;
@@ -1939,8 +1961,8 @@ span.tag-input[contenteditable]:empty::before {
 }
 
 .incidents-container {
-    background-color: var(--color-1);
-    border: 2px solid var(--color-3);
+    background-color: #495057;
+    border: 1px solid #c1c2c55d;
     display: flex;
     flex-direction: column;
     height: 80.7vh;
@@ -1950,7 +1972,7 @@ span.tag-input[contenteditable]:empty::before {
 }
 
 .incidents-title {
-    background-color: var(--color-4);
+    background-color: #909296;
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -1966,11 +1988,11 @@ span.tag-input[contenteditable]:empty::before {
 }
 
 .incidents-title:hover {
-    background-color: var(--color-3);
+    background-color: #909296;
 }
 
 .incidents-search-input {
-    background-color: var(--color-3);
+    background-color: #909296;
     color: white;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -2010,7 +2032,7 @@ span.tag-input[contenteditable]:empty::before {
 }
 
 .incidents-item {
-    background-color: var(--color-5);
+    background-color: #141517;
     width: 100%;
     height: 5.5vh;
     margin: auto;
@@ -2022,7 +2044,7 @@ span.tag-input[contenteditable]:empty::before {
 }
 
 .incidents-item:hover {
-    background-color: var(--color-3);
+    background-color: #909296;
 }
 
 .incidents-top-holder {
@@ -2081,8 +2103,8 @@ span.tag-input[contenteditable]:empty::before {
 }
 
 .manage-incidents-container {
-    background-color: var(--color-1);
-    border: 2px solid var(--color-3);
+    background-color: #495057;
+    border: 1px solid #c1c2c55d;
     display: flex;
     flex-direction: column;
     height: 80.7vh;
@@ -2094,7 +2116,7 @@ span.tag-input[contenteditable]:empty::before {
 }
 
 .manage-incidents-title {
-    background-color: var(--color-4);
+    background-color: #909296;
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -2112,7 +2134,7 @@ span.tag-input[contenteditable]:empty::before {
 }
 
 .manage-incidents-title:hover {
-    background-color: var(--color-3);
+    background-color: #909296;
 }
 
 .manage-incidents-create {
@@ -2122,7 +2144,7 @@ span.tag-input[contenteditable]:empty::before {
     padding-top: 5px;
     padding-bottom: 5px;
     align-items: center;
-    background-color: var(--color-4);
+    background-color: #909296;
     margin: auto;
     margin-left: 5px;
     margin-top: 10px;
@@ -2135,7 +2157,7 @@ span.tag-input[contenteditable]:empty::before {
 }
 
 .manage-incidents-create:hover {
-    background-color: var(--color-3);
+    background-color: #909296;
 }
 
 .manage-incidents-save {
@@ -2179,7 +2201,7 @@ span.tag-input[contenteditable]:empty::before {
     margin-bottom: 0px;
     align-items: center;
     display: flex;
-    border-bottom: 2px solid var(--color-3);
+    border-bottom: 2px solid #909296;
 }
 
 .manage-incidents-title-input input {
@@ -2202,7 +2224,7 @@ span.tag-input[contenteditable]:empty::before {
     outline: none;
     min-height: 30vh;
     resize: none;
-    background-color: var(--color-5);
+    background-color: #141517;
     color: white;
     font-size: 16px;
     padding: 10px;
@@ -2212,7 +2234,7 @@ span.tag-input[contenteditable]:empty::before {
 .manage-incidents-tags-container {
     display: flex;
     flex-direction: column;
-    border: 2px solid var(--color-3);
+    border: 1px solid #c1c2c55d;
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -2226,7 +2248,7 @@ span.tag-input[contenteditable]:empty::before {
 }
 
 .manage-incidents-tags-title {
-    background-color: var(--color-4);
+    background-color: #909296;
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -2243,11 +2265,11 @@ span.tag-input[contenteditable]:empty::before {
 }
 
 .manage-incidents-tags-add-btn:hover {
-    background-color: var(--color-3);
+    background-color: #909296;
 }
 
 .manage-incidents-tags-add-btn {
-    background-color: var(--color-4);
+    background-color: #909296;
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -2295,7 +2317,7 @@ span.tag-input[contenteditable]:empty::before {
 .manage-incidents-officers-container {
     display: flex;
     flex-direction: column;
-    border: 2px solid var(--color-3);
+    border: 1px solid #c1c2c55d;
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -2309,7 +2331,7 @@ span.tag-input[contenteditable]:empty::before {
 }
 
 .manage-incidents-officers-title {
-    background-color: var(--color-4);
+    background-color: #909296;
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -2326,7 +2348,7 @@ span.tag-input[contenteditable]:empty::before {
 }
 
 .manage-incidents-officers-add-btn {
-    background-color: var(--color-4);
+    background-color: #909296;
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -2343,7 +2365,7 @@ span.tag-input[contenteditable]:empty::before {
 }
 
 .manage-incidents-officers-add-btn:hover {
-    background-color: var(--color-3);
+    background-color: #909296;
 }
 
 .manage-incidents-officers-holder {
@@ -2359,7 +2381,7 @@ span.tag-input[contenteditable]:empty::before {
 .manage-incidents-civilians-container {
     display: flex;
     flex-direction: column;
-    border: 2px solid var(--color-3);
+    border: 1px solid #c1c2c55d;
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -2373,7 +2395,7 @@ span.tag-input[contenteditable]:empty::before {
 }
 
 .manage-incidents-civilians-title {
-    background-color: var(--color-4);
+    background-color: #909296;
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -2390,7 +2412,7 @@ span.tag-input[contenteditable]:empty::before {
 }
 
 .manage-incidents-civilians-add-btn {
-    background-color: var(--color-4);
+    background-color: #909296;
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -2407,7 +2429,7 @@ span.tag-input[contenteditable]:empty::before {
 }
 
 .manage-incidents-civilians-add-btn:hover {
-    background-color: var(--color-3);
+    background-color: #909296;
 }
 
 .manage-incidents-civilians-holder {
@@ -2423,7 +2445,7 @@ span.tag-input[contenteditable]:empty::before {
 .manage-incidents-evidence-container {
     display: flex;
     flex-direction: column;
-    border: 2px solid var(--color-3);
+    border: 1px solid #c1c2c55d;
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -2437,7 +2459,7 @@ span.tag-input[contenteditable]:empty::before {
 }
 
 .manage-incidents-evidence-title {
-    background-color: var(--color-4);
+    background-color: #909296;
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -2454,7 +2476,7 @@ span.tag-input[contenteditable]:empty::before {
 }
 
 .manage-incidents-evidence-add-btn {
-    background-color: var(--color-4);
+    background-color: #909296;
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -2471,7 +2493,7 @@ span.tag-input[contenteditable]:empty::before {
 }
 
 .manage-incidents-evidence-add-btn:hover {
-    background-color: var(--color-3);
+    background-color: #909296;
 }
 
 .manage-incidents-evidence-holder {
@@ -2514,8 +2536,8 @@ span.tag-incident-input[contenteditable]:empty::before {
 }
 
 .associated-incidents-container {
-    background-color: var(--color-1);
-    border: 2px solid var(--color-3);
+    background-color: #495057;
+    border: 1px solid #c1c2c55d;
     display: flex;
     flex-direction: column;
     height: 80.7vh;
@@ -2526,7 +2548,7 @@ span.tag-incident-input[contenteditable]:empty::before {
 }
 
 .associated-incidents-title {
-    background-color: var(--color-4);
+    background-color: #909296;
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -2542,13 +2564,13 @@ span.tag-incident-input[contenteditable]:empty::before {
 }
 
 .associated-incidents-title:hover {
-    background-color: var(--color-3);
+    background-color: #909296;
 }
 
 .associated-incidents-tags-container {
     display: flex;
     flex-direction: column;
-    border: 2px solid var(--color-3);
+    border: 1px solid #c1c2c55d;
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -2562,7 +2584,7 @@ span.tag-incident-input[contenteditable]:empty::before {
 }
 
 .associated-incidents-tags-title {
-    background-color: var(--color-4);
+    background-color: #909296;
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -2579,11 +2601,11 @@ span.tag-incident-input[contenteditable]:empty::before {
 }
 
 .associated-incidents-tags-add-btn:hover {
-    background-color: var(--color-3);
+    background-color: #909296;
 }
 
 .associated-incidents-tags-add-btn {
-    background-color: var(--color-4);
+    background-color: #909296;
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -2628,7 +2650,7 @@ span.tag-incident-input[contenteditable]:empty::before {
 }
 
 .incidents-upload-input {
-    background-color: var(--color-3);
+    background-color: #909296;
     color: white;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -2663,7 +2685,7 @@ span.tag-incident-input[contenteditable]:empty::before {
 }
 
 .bulletin-add-btn {
-    background-color: var(--color-4);
+    background-color: #909296;
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -2678,13 +2700,13 @@ span.tag-incident-input[contenteditable]:empty::before {
 }
 
 .bulletin-add-btn:hover {
-    background-color: var(--color-3);
+    background-color: #909296;
 }
 
 .associated-incidents-user-container {
     display: flex;
     flex-direction: column;
-    border: 2px solid var(--color-3);
+    border: 1px solid #c1c2c55d;
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -2698,7 +2720,7 @@ span.tag-incident-input[contenteditable]:empty::before {
 }
 
 .associated-incidents-user-title {
-    background-color: var(--color-4);
+    background-color: #909296;
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -2723,7 +2745,7 @@ span.tag-incident-input[contenteditable]:empty::before {
     max-height: 14vh;
     user-select: none;
     display: flex;
-    background-color: var(--color-5);
+    background-color: #141517;
 }
 
 .modify-charges-label {
@@ -2797,7 +2819,7 @@ span.tag-incident-input[contenteditable]:empty::before {
     margin-bottom: 0px;
     align-items: center;
     display: flex;
-    border-bottom: 2px solid var(--color-3);
+    border-bottom: 2px solid #909296;
 }
 
 .associated-incidents-fine-input input {
@@ -2820,7 +2842,7 @@ span.tag-incident-input[contenteditable]:empty::before {
     margin-bottom: 15px;
     align-items: center;
     display: flex;
-    border-bottom: 2px solid var(--color-3);
+    border-bottom: 2px solid #909296;
 }
 
 .associated-incidents-sentence-input input {
@@ -2843,8 +2865,8 @@ span.tag-incident-input[contenteditable]:empty::before {
 
 .control-button {
     text-align: center;
-    background-color: var(--color-4);
-    border: 2px solid var(--color-3);
+    background-color: #909296;
+    border: 1px solid #c1c2c55d;
     margin-bottom: 10px;
     padding: 10px;
 }
@@ -2854,7 +2876,7 @@ span.tag-incident-input[contenteditable]:empty::before {
 }
 
 .control-button:hover {
-    background-color: var(--color-3);
+    background-color: #909296;
     cursor: pointer;
 }
 
@@ -2867,7 +2889,7 @@ span.tag-incident-input[contenteditable]:empty::before {
 }
 
 .incidents-person-search-container {
-    background-color: var(--color-5);
+    background-color: #141517;
     width: 95vh;
     height: 45vh;
     margin: auto;
@@ -2878,7 +2900,7 @@ span.tag-incident-input[contenteditable]:empty::before {
 }
 
 .incidents-person-search-title {
-    background-color: var(--color-4);
+    background-color: #909296;
     color: white;
     font-size: 20px;
     font-weight: bolder;
@@ -2933,7 +2955,7 @@ span.tag-incident-input[contenteditable]:empty::before {
 }
 
 .incidents-person-search-item:hover {
-    background-color: var(--color-3);
+    background-color: #909296;
 }
 
 .incidents-person-search-item-pfp {
@@ -2975,7 +2997,7 @@ span.tag-incident-input[contenteditable]:empty::before {
     font-size: 16px;
     text-align: left;
     padding-bottom: 2.5px;
-    border-bottom: 2px solid var(--color-3);
+    border-bottom: 2px solid #909296;
     user-select: none;
 }
 
@@ -2999,12 +3021,12 @@ span.tag-incident-input[contenteditable]:empty::before {
     font-size: 16px;
     text-align: left;
     padding-bottom: 2.5px;
-    border-bottom: 2px solid var(--color-3);
+    border-bottom: 2px solid #909296;
 }
 
 .bolos-container {
-    background-color: var(--color-1);
-    border: 2px solid var(--color-3);
+    background-color: #495057;
+    border: 1px solid #c1c2c55d;
     display: flex;
     flex-direction: column;
     height: 80.7vh;
@@ -3014,7 +3036,7 @@ span.tag-incident-input[contenteditable]:empty::before {
 }
 
 .bolos-title {
-    background-color: var(--color-4);
+    background-color: #909296;
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -3030,11 +3052,11 @@ span.tag-incident-input[contenteditable]:empty::before {
 }
 
 .bolos-title:hover {
-    background-color: var(--color-3);
+    background-color: #909296;
 }
 
 .bolos-search-input {
-    background-color: var(--color-3);
+    background-color: #909296;
     color: white;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -3074,7 +3096,7 @@ span.tag-incident-input[contenteditable]:empty::before {
 }
 
 .bolos-item {
-    background-color: var(--color-5);
+    background-color: #141517;
     width: 100%;
     height: 5.5vh;
     margin: auto;
@@ -3086,8 +3108,8 @@ span.tag-incident-input[contenteditable]:empty::before {
 }
 
 .manage-bolos-container {
-    background-color: var(--color-1);
-    border: 2px solid var(--color-3);
+    background-color: #495057;
+    border: 1px solid #c1c2c55d;
     display: flex;
     flex-direction: column;
     height: 80.7vh;
@@ -3099,7 +3121,7 @@ span.tag-incident-input[contenteditable]:empty::before {
 }
 
 .manage-bolos-title {
-    background-color: var(--color-4);
+    background-color: #909296;
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -3118,7 +3140,7 @@ span.tag-incident-input[contenteditable]:empty::before {
 }
 
 .manage-bolos-title-tag {
-    background-color: var(--color-4);
+    background-color: #909296;
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -3135,7 +3157,7 @@ span.tag-incident-input[contenteditable]:empty::before {
 }
 
 .manage-bolos-title:hover {
-    background-color: var(--color-3);
+    background-color: #909296;
 }
 
 
@@ -3147,7 +3169,7 @@ span.tag-incident-input[contenteditable]:empty::before {
     padding-top: 5px;
     padding-bottom: 5px;
     align-items: center;
-    background-color: var(--color-4);
+    background-color: #909296;
     margin: auto;
     margin-left: 5px;
     margin-top: 10px;
@@ -3159,7 +3181,7 @@ span.tag-incident-input[contenteditable]:empty::before {
 }
 
 .manage-bolos-create:hover {
-    background-color: var(--color-3);
+    background-color: #909296;
 }
 
 .manage-bolos-input-tag {
@@ -3182,7 +3204,7 @@ span.tag-incident-input[contenteditable]:empty::before {
     margin-bottom: 0px;
     align-items: center;
     display: flex;
-    border-bottom: 2px solid var(--color-3);
+    border-bottom: 2px solid #909296;
 }
 
 .manage-bolos-input-title input {
@@ -3205,7 +3227,7 @@ span.tag-incident-input[contenteditable]:empty::before {
     margin-bottom: 0px;
     align-items: center;
     display: flex;
-    border-bottom: 2px solid var(--color-3);
+    border-bottom: 2px solid #909296;
 }
 
 .manage-bolos-input-plate input {
@@ -3228,7 +3250,7 @@ span.tag-incident-input[contenteditable]:empty::before {
     margin-bottom: 0px;
     align-items: center;
     display: flex;
-    border-bottom: 2px solid var(--color-3);
+    border-bottom: 2px solid #909296;
 }
 
 .manage-bolos-input-owner input {
@@ -3251,7 +3273,7 @@ span.tag-incident-input[contenteditable]:empty::before {
     margin-bottom: 0px;
     align-items: center;
     display: flex;
-    border-bottom: 2px solid var(--color-3);
+    border-bottom: 2px solid #909296;
 }
 
 .manage-bolos-input-individual input {
@@ -3315,7 +3337,7 @@ span.tag-incident-input[contenteditable]:empty::before {
     outline: none;
     height: 100%;
     resize: none;
-    background-color: var(--color-5);
+    background-color: #141517;
     color: white;
     font-size: 16px;
     padding: 10px;
@@ -3334,9 +3356,9 @@ span.tag-incident-input[contenteditable]:empty::before {
 .manage-bolos-tags-container {
     display: flex;
     flex-direction: column;
-    background-color: var(--color-1);
+    background-color: #495057;
     width: 100%;
-    border: 2px solid var(--color-3);
+    border: 1px solid #c1c2c55d;
     max-height: 150px;
     overflow: scroll;
 }
@@ -3344,9 +3366,9 @@ span.tag-incident-input[contenteditable]:empty::before {
 .manage-bolos-gallery-container {
     display: flex;
     flex-direction: column;
-    background-color: var(--color-1);
+    background-color: #495057;
     width: 100%;
-    border: 2px solid var(--color-3);
+    border: 1px solid #c1c2c55d;
     margin-top: 10px;
     height: 18vh;
     overflow: scroll;
@@ -3370,7 +3392,7 @@ span.tag-incident-input[contenteditable]:empty::before {
 }
 
 .officers-add-btn {
-    background-color: var(--color-4);
+    background-color: #909296;
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -3385,22 +3407,22 @@ span.tag-incident-input[contenteditable]:empty::before {
 }
 
 .officers-add-btn:hover {
-    background-color: var(--color-3);
+    background-color: #909296;
 }
 
 .manage-officers-tags-container {
     display: flex;
     flex-direction: column;
-    background-color: var(--color-1);
+    background-color: #495057;
     width: 100%;
-    border: 2px solid var(--color-3);
+    border: 1px solid #c1c2c55d;
     max-height: 150px;
     margin-top: 10px;
     overflow: scroll;
 }
 
 .bolo-item {
-    background-color: var(--color-5);
+    background-color: #141517;
     width: 100%;
     margin: auto;
     margin-bottom: 10px;
@@ -3411,7 +3433,7 @@ span.tag-incident-input[contenteditable]:empty::before {
 }
 
 .bolo-item:hover {
-    background-color: var(--color-3);
+    background-color: #909296;
 }
 
 .bolo-top-holder {
@@ -3486,7 +3508,7 @@ span.tag-incident-input[contenteditable]:empty::before {
 }
 
 .bolos-search-title {
-    background-color: var(--color-4);
+    background-color: #909296;
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -3504,11 +3526,11 @@ span.tag-incident-input[contenteditable]:empty::before {
 }
 
 .bolos-search-title:hover {
-    background-color: var(--color-3);
+    background-color: #909296;
 }
 
 .manage-bolos-tags-add-btn {
-    background-color: var(--color-4);
+    background-color: #909296;
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -3523,7 +3545,7 @@ span.tag-incident-input[contenteditable]:empty::before {
 }
 
 .manage-bolos-tags-add-btn:hover {
-    background-color: var(--color-3);
+    background-color: #909296;
 }
 
 span.tag-bolo-input[contenteditable]:empty::before {
@@ -3577,7 +3599,7 @@ span.officer-tag-bolo-input[contenteditable]:empty::before {
 }
 
 .bolo-gallery-add-btn {
-    background-color: var(--color-4);
+    background-color: #909296;
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -3592,11 +3614,11 @@ span.officer-tag-bolo-input[contenteditable]:empty::before {
 }
 
 .bolo-gallery-add-btn:hover {
-    background-color: var(--color-3);
+    background-color: #909296;
 }
 
 .bolo-gallery-upload-input {
-    background-color: var(--color-3);
+    background-color: #909296;
     color: white;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -3641,7 +3663,7 @@ span.officer-tag-bolo-input[contenteditable]:empty::before {
 }
 
 .manage-bolos-editing-title {
-    background-color: var(--color-3);
+    background-color: #909296;
     color: white;
     font-size: 15px;
     font-weight: lighter;
@@ -3659,8 +3681,8 @@ span.officer-tag-bolo-input[contenteditable]:empty::before {
 }
 
 .reports-container {
-    background-color: var(--color-1);
-    border: 2px solid var(--color-3);
+    background-color: #495057;
+    border: 1px solid #c1c2c55d;
     display: flex;
     flex-direction: column;
     height: 80.7vh;
@@ -3678,8 +3700,8 @@ span.officer-tag-bolo-input[contenteditable]:empty::before {
 }
 
 .dispatch-comms-container {
-    background-color: var(--color-1);
-    border: 2px solid var(--color-3);
+    background-color: #495057;
+    border: 1px solid #c1c2c55d;
     display: flex;
     flex-direction: column;
     height: 46.5%;
@@ -3689,7 +3711,7 @@ span.officer-tag-bolo-input[contenteditable]:empty::before {
 }
 
 .reports-title {
-    background-color: var(--color-4);
+    background-color: #909296;
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -3705,11 +3727,11 @@ span.officer-tag-bolo-input[contenteditable]:empty::before {
 }
 
 .reports-title:hover {
-    background-color: var(--color-3);
+    background-color: #909296;
 }
 
 .reports-search-input {
-    background-color: var(--color-3);
+    background-color: #909296;
     color: white;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -3755,7 +3777,7 @@ span.officer-tag-bolo-input[contenteditable]:empty::before {
 }
 
 .dispatch-item:hover {
-    background-color: var(--color-7);
+    background-color: #C3FAE8;
 }
 
 .dispatch-items {
@@ -3878,7 +3900,7 @@ span.officer-tag-bolo-input[contenteditable]:empty::before {
 }
 
 .dispatch-item-msg:hover {
-    background-color: var(--color-7);
+    background-color: #C3FAE8;
 }
 
 .dispatch-item-grid {
@@ -3889,12 +3911,13 @@ span.officer-tag-bolo-input[contenteditable]:empty::before {
     min-width: 90%;
     max-width: 90%;
     min-height: 0.1vh;
-    margin-left: 1.1vh;
-    margin-bottom: 1vh;
+    margin-left: 0.5vh;
+    margin-bottom: 0.4vh;
     border: none;
-    padding: 12px 20px;
-    background-color: var(--color-7);
-    color: #bebec2;
+    padding: 8px 20px;
+    background-color: #5C5F66;
+    border: 2px solid #c1c2c55d;
+    color: #ffffff;
 }
 
 .dispatch-input:focus {
@@ -3942,7 +3965,7 @@ span.officer-tag-bolo-input[contenteditable]:empty::before {
 }
 
 .reports-search-title {
-    background-color: var(--color-4);
+    background-color: #909296;
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -3960,12 +3983,12 @@ span.officer-tag-bolo-input[contenteditable]:empty::before {
 }
 
 .reports-search-title:hover {
-    background-color: var(--color-3);
+    background-color: #909296;
 }
 
 .manage-reports-container {
-    background-color: var(--color-1);
-    border: 2px solid var(--color-3);
+    background-color: #495057;
+    border: 1px solid #c1c2c55d;
     display: flex;
     flex-direction: column;
     height: 80.7vh;
@@ -3977,7 +4000,7 @@ span.officer-tag-bolo-input[contenteditable]:empty::before {
 }
 
 .manage-reports-title {
-    background-color: var(--color-4);
+    background-color: #909296;
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -3996,7 +4019,7 @@ span.officer-tag-bolo-input[contenteditable]:empty::before {
 }
 
 .manage-reports-title-tag {
-    background-color: var(--color-4);
+    background-color: #909296;
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -4013,7 +4036,7 @@ span.officer-tag-bolo-input[contenteditable]:empty::before {
 }
 
 .manage-reports-title:hover {
-    background-color: var(--color-3);
+    background-color: #909296;
 }
 
 
@@ -4025,7 +4048,7 @@ span.officer-tag-bolo-input[contenteditable]:empty::before {
     padding-top: 5px;
     padding-bottom: 5px;
     align-items: center;
-    background-color: var(--color-4);
+    background-color: #909296;
     margin: auto;
     margin-left: 5px;
     margin-top: 10px;
@@ -4037,7 +4060,7 @@ span.officer-tag-bolo-input[contenteditable]:empty::before {
 }
 
 .manage-reports-create:hover {
-    background-color: var(--color-3);
+    background-color: #909296;
 }
 
 .manage-reports-input-tag {
@@ -4060,7 +4083,7 @@ span.officer-tag-bolo-input[contenteditable]:empty::before {
     margin-bottom: 0px;
     align-items: center;
     display: flex;
-    border-bottom: 2px solid var(--color-3);
+    border-bottom: 2px solid #909296;
 }
 
 .manage-reports-input-title input {
@@ -4083,7 +4106,7 @@ span.officer-tag-bolo-input[contenteditable]:empty::before {
     margin-bottom: 0px;
     align-items: center;
     display: flex;
-    border-bottom: 2px solid var(--color-3);
+    border-bottom: 2px solid #909296;
 }
 
 .manage-reports-input-type input {
@@ -4106,7 +4129,7 @@ span.officer-tag-bolo-input[contenteditable]:empty::before {
     margin-bottom: 0px;
     align-items: center;
     display: flex;
-    border-bottom: 2px solid var(--color-3);
+    border-bottom: 2px solid #909296;
 }
 
 .manage-reports-input-owner input {
@@ -4129,7 +4152,7 @@ span.officer-tag-bolo-input[contenteditable]:empty::before {
     margin-bottom: 0px;
     align-items: center;
     display: flex;
-    border-bottom: 2px solid var(--color-3);
+    border-bottom: 2px solid #909296;
 }
 
 .manage-reports-input-individual input {
@@ -4207,7 +4230,7 @@ span.officer-tag-bolo-input[contenteditable]:empty::before {
 }
 
 .manage-reports-editing-title {
-    background-color: var(--color-3);
+    background-color: #909296;
     color: white;
     font-size: 15px;
     font-weight: lighter;
@@ -4234,7 +4257,7 @@ span.officer-tag-bolo-input[contenteditable]:empty::before {
     outline: none;
     height: 100%;
     resize: none;
-    background-color: var(--color-5);
+    background-color: #141517;
     color: white;
     font-size: 16px;
     padding: 10px;
@@ -4253,9 +4276,9 @@ span.officer-tag-bolo-input[contenteditable]:empty::before {
 .manage-reports-tags-container {
     display: flex;
     flex-direction: column;
-    background-color: var(--color-1);
+    background-color: #495057;
     width: 100%;
-    border: 2px solid var(--color-3);
+    border: 1px solid #c1c2c55d;
     max-height: 150px;
     overflow: scroll;
 }
@@ -4263,9 +4286,9 @@ span.officer-tag-bolo-input[contenteditable]:empty::before {
 .manage-reports-gallery-container {
     display: flex;
     flex-direction: column;
-    background-color: var(--color-1);
+    background-color: #495057;
     width: 100%;
-    border: 2px solid var(--color-3);
+    border: 1px solid #c1c2c55d;
     margin-top: 10px;
     height: 18vh;
     overflow: scroll;
@@ -4289,7 +4312,7 @@ span.officer-tag-bolo-input[contenteditable]:empty::before {
 }
 
 .reports-officers-add-btn {
-    background-color: var(--color-4);
+    background-color: #909296;
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -4304,22 +4327,22 @@ span.officer-tag-bolo-input[contenteditable]:empty::before {
 }
 
 .reports-officers-add-btn:hover {
-    background-color: var(--color-3);
+    background-color: #909296;
 }
 
 .reports-officers-tags-container {
     display: flex;
     flex-direction: column;
-    background-color: var(--color-1);
+    background-color: #495057;
     width: 100%;
-    border: 2px solid var(--color-3);
+    border: 1px solid #c1c2c55d;
     max-height: 150px;
     margin-top: 10px;
     overflow: scroll;
 }
 
 .reports-gallery-add-btn {
-    background-color: var(--color-4);
+    background-color: #909296;
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -4334,11 +4357,11 @@ span.officer-tag-bolo-input[contenteditable]:empty::before {
 }
 
 .reports-gallery-add-btn:hover {
-    background-color: var(--color-3);
+    background-color: #909296;
 }
 
 .reports-gallery-upload-input {
-    background-color: var(--color-3);
+    background-color: #909296;
     color: white;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -4383,7 +4406,7 @@ span.officer-tag-bolo-input[contenteditable]:empty::before {
 }
 
 .manage-reports-tags-add-btn {
-    background-color: var(--color-4);
+    background-color: #909296;
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -4398,22 +4421,22 @@ span.officer-tag-bolo-input[contenteditable]:empty::before {
 }
 
 .manage-reports-tags-add-btn:hover {
-    background-color: var(--color-3);
+    background-color: #909296;
 }
 
 .reports-civilians-tags-container {
     display: flex;
     flex-direction: column;
-    background-color: var(--color-1);
+    background-color: #495057;
     width: 100%;
-    border: 2px solid var(--color-3);
+    border: 1px solid #c1c2c55d;
     max-height: 150px;
     margin-top: 10px;
     overflow: scroll;
 }
 
 .reports-civilians-add-btn {
-    background-color: var(--color-4);
+    background-color: #909296;
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -4428,7 +4451,7 @@ span.officer-tag-bolo-input[contenteditable]:empty::before {
 }
 
 .reports-civilians-add-btn:hover {
-    background-color: var(--color-3);
+    background-color: #909296;
 }
 
 .reports-civilians-tags-holder {
@@ -4441,7 +4464,7 @@ span.officer-tag-bolo-input[contenteditable]:empty::before {
 }
 
 .reports-item {
-    background-color: var(--color-5);
+    background-color: #141517;
     width: 100%;
     margin: auto;
     margin-bottom: 10px;
@@ -4452,7 +4475,7 @@ span.officer-tag-bolo-input[contenteditable]:empty::before {
 }
 
 .reports-item:hover {
-    background-color: var(--color-3);
+    background-color: #909296;
 }
 
 .reports-top-holder {
@@ -4537,8 +4560,8 @@ span.tag-reports-input[contenteditable]:empty::before {
 
 
 .dmv-container {
-    background-color: var(--color-1);
-    border: 2px solid var(--color-3);
+    background-color: #495057;
+    border: 1px solid #c1c2c55d;
     display: flex;
     flex-direction: column;
     height: 80.7vh;
@@ -4568,7 +4591,7 @@ span.tag-reports-input[contenteditable]:empty::before {
 }
 
 .dmv-search-title {
-    background-color: var(--color-4);
+    background-color: #909296;
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -4584,11 +4607,11 @@ span.tag-reports-input[contenteditable]:empty::before {
 }
 
 .dmv-search-title:hover {
-    background-color: var(--color-3);
+    background-color: #909296;
 }
 
 .dmv-search-input {
-    background-color: var(--color-3);
+    background-color: #909296;
     color: white;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -4628,8 +4651,8 @@ span.tag-reports-input[contenteditable]:empty::before {
 }
 
 .vehicle-information-container {
-    background-color: var(--color-1);
-    border: 2px solid var(--color-3);
+    background-color: #495057;
+    border: 1px solid #c1c2c55d;
     display: flex;
     flex-direction: column;
     height: 80.7vh;
@@ -4665,7 +4688,7 @@ span.tag-reports-input[contenteditable]:empty::before {
 }
 
 .vehicle-information-title {
-    background-color: var(--color-4);
+    background-color: #909296;
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -4683,7 +4706,7 @@ span.tag-reports-input[contenteditable]:empty::before {
 }
 
 .dmv-item {
-    background-color: var(--color-5);
+    background-color: #141517;
     width: 100%;
     height: 9vh;
     margin: auto;
@@ -4695,7 +4718,7 @@ span.tag-reports-input[contenteditable]:empty::before {
 }
 
 .dmv-item:hover {
-    background-color: var(--color-3);
+    background-color: #909296;
 }
 
 .dmv-image {
@@ -4865,7 +4888,7 @@ span.tag-reports-input[contenteditable]:empty::before {
 }
 
 .vehicle-info-line {
-    background-color: var(--color-3);
+    background-color: #909296;
     height: 2px;
     margin-left: 10px;
     margin-bottom: 10px;
@@ -4874,7 +4897,7 @@ span.tag-reports-input[contenteditable]:empty::before {
 .vehicle-info-tags-container {
     display: flex;
     flex-direction: column;
-    border: 2px solid var(--color-3);
+    border: 1px solid #c1c2c55d;
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -4888,7 +4911,7 @@ span.tag-reports-input[contenteditable]:empty::before {
 }
 
 .vehicle-info-tags-title {
-    background-color: var(--color-4);
+    background-color: #909296;
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -4904,11 +4927,11 @@ span.tag-reports-input[contenteditable]:empty::before {
 }
 
 .vehicle-info-tags-add-btn:hover {
-    background-color: var(--color-3);
+    background-color: #909296;
 }
 
 .vehicle-info-tags-add-btn {
-    background-color: var(--color-4);
+    background-color: #909296;
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -4961,7 +4984,7 @@ span.tag-reports-input[contenteditable]:empty::before {
     outline: none;
     min-height: 26.9vh;
     resize: none;
-    background-color: var(--color-5);
+    background-color: #141517;
     color: white;
     font-size: 16px;
     padding: 10px;
@@ -4996,8 +5019,8 @@ span.tag-reports-input[contenteditable]:empty::before {
 }
 
 .stafflogs-container {
-    background-color: var(--color-1);
-    border: 2px solid var(--color-3);
+    background-color: #495057;
+    border: 1px solid #c1c2c55d;
     display: flex;
     flex-direction: column;
     height: 80.7vh;
@@ -5027,7 +5050,7 @@ span.tag-reports-input[contenteditable]:empty::before {
 
 .stafflogs-box-title {
     align-self: center;
-    background-color: var(--color-4);
+    background-color: #909296;
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -5046,8 +5069,8 @@ span.tag-reports-input[contenteditable]:empty::before {
 }
 
 .leaderboard-container {
-    background-color: var(--color-1);
-    border: 2px solid var(--color-3);
+    background-color: #495057;
+    border: 1px solid #c1c2c55d;
     display: flex;
     flex-direction: column;
     height: 80.7vh;
@@ -5079,7 +5102,7 @@ span.tag-reports-input[contenteditable]:empty::before {
 
 .leaderboard-title {
     align-self: center;
-    background-color: var(--color-4);
+    background-color: #909296;
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -5265,7 +5288,7 @@ span.tag-reports-input[contenteditable]:empty::before {
 }
 
 .incidents-charges-table-container {
-    background-color: var(--color-5);
+    background-color: #141517;
     width: 155vh;
     height: 85vh;
     margin: auto;
@@ -5278,13 +5301,13 @@ span.tag-reports-input[contenteditable]:empty::before {
 .incidents-charges-title-container {
     width: 95%;
     height: 11vh;
-    background-color: var(--color-4);
+    background-color: #909296;
     margin: auto;
     margin-top: 1.5vh;
     margin-bottom: 0vh;
     display: flex;
     flex-direction: column;
-    border: 2px solid var(--color-4);
+    border: 2px solid #909296;
 }
 
 .incidents-charges-title {
@@ -5305,7 +5328,7 @@ span.tag-reports-input[contenteditable]:empty::before {
 .incidents-charges-title-description {
     color: white;
     margin: auto;
-    background-color: var(--color-5);
+    background-color: #141517;
     text-align: left;
     font-size: 17px;
     padding: .5vh;
@@ -5314,7 +5337,7 @@ span.tag-reports-input[contenteditable]:empty::before {
 }
 
 .manage-incidents-editing-title {
-    background-color: var(--color-3);
+    background-color: #909296;
     color: white;
     font-size: 15px;
     font-weight: lighter;
@@ -5334,7 +5357,7 @@ span.tag-reports-input[contenteditable]:empty::before {
 
 .current-charges-container {
     width: 95%;
-    border: 2px solid var(--color-4);
+    border: 2px solid #909296;
     margin: auto;
     margin-top: 1.5vh;
     margin-bottom: 0vh;
@@ -5342,7 +5365,7 @@ span.tag-reports-input[contenteditable]:empty::before {
 }
 
 .current-charges-inner-container {
-    background-color: var(--color-4);
+    background-color: #909296;
     width: 35vh;
     height: fit-content;
     margin: auto;
@@ -5395,12 +5418,12 @@ span.tag-reports-input[contenteditable]:empty::before {
 .offenses-title-container {
     width: fit-content;
     height: fit-content;
-    background-color: var(--color-4);
+    background-color: #909296;
     margin-left: 3.75vh;
     margin-top: 1.5vh;
     margin-bottom: 0vh;
     display: flex;
-    border: 2px solid var(--color-4);
+    border: 2px solid #909296;
 }
 
 .offenses-title {
@@ -5413,11 +5436,11 @@ span.tag-reports-input[contenteditable]:empty::before {
 
 .offenses-prepend-holder {
     width: 95%;
-    background-color: var(--color-4);
+    background-color: #909296;
     margin: auto;
     margin-top: 1.5vh;
     margin-bottom: 0vh;
-    border: 2px solid var(--color-4);
+    border: 2px solid #909296;
     display: grid;
     grid-template-columns: auto auto auto auto;
     grid-template-rows: auto auto auto auto;
@@ -5503,7 +5526,7 @@ span.tag-reports-input[contenteditable]:empty::before {
 }
 
 .radio-inner-container {
-    background-color: var(--color-5);
+    background-color: #141517;
     width: 30vh;
     height: 17.5vh;
     margin: auto;
@@ -5575,7 +5598,7 @@ span.tag-reports-input[contenteditable]:empty::before {
 }
 
 .callsign-inner-container {
-    background-color: var(--color-5);
+    background-color: #141517;
     width: 30vh;
     height: 17.5vh;
     margin: auto;
@@ -5734,15 +5757,15 @@ span.tag-reports-input[contenteditable]:empty::before {
 }
 
 .active-unit-item:hover {
-    background-color: var(--color-3);
+    background-color: #909296;
 }
 
 .active-calls-item:hover {
-    background-color: var(--color-3);
+    background-color: #909296;
 }
 
 .dispatch-attached-units-container {
-    background-color: var(--color-1);
+    background-color: #495057;
     width: 92vh;
     height: 46vh;
     margin: auto;
@@ -5755,7 +5778,7 @@ span.tag-reports-input[contenteditable]:empty::before {
 }
 
 .dispatch-attached-units-title {
-    background-color: var(--color-4);
+    background-color: #909296;
     color: white;
     font-size: 20px;
     font-weight: bolder;
@@ -5783,7 +5806,7 @@ span.tag-reports-input[contenteditable]:empty::before {
 .dispatch-attached-unit-item {
     padding: 10px;
     height: 3vh;
-    background-color: var(--color-5);
+    background-color: #141517;
     display: flex;
     align-items: center;
     margin-bottom: 5px;
@@ -5802,7 +5825,7 @@ span.tag-reports-input[contenteditable]:empty::before {
 }
 
 .incidents-title {
-    background-color: var(--color-4);
+    background-color: #909296;
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -5820,7 +5843,7 @@ span.tag-reports-input[contenteditable]:empty::before {
 }
 
 .incidents-title:hover {
-    background-color: var(--color-3);
+    background-color: #909296;
 }
 
 .incidents-search-refresh {
@@ -5852,7 +5875,7 @@ span.tag-reports-input[contenteditable]:empty::before {
 }
 
 .respond-calls-container {
-    background-color: var(--color-5);
+    background-color: #141517;
     width: 70vh;
     min-height: 30vh;
     max-height: 40vh;
@@ -5864,7 +5887,7 @@ span.tag-reports-input[contenteditable]:empty::before {
 }
 
 .respond-calls-title {
-    background-color: var(--color-4);
+    background-color: #909296;
     color: white;
     font-size: 20px;
     font-weight: bolder;
@@ -5882,7 +5905,7 @@ span.tag-reports-input[contenteditable]:empty::before {
     width: 92.5%;
     margin-top: 10px;
     margin-bottom: 10px;
-    outline: solid 3px var(--color-4);
+    outline: solid 3px #909296;
     margin-left: 27px;
     min-height: 21.5vh;
     max-height: 21.5vh;
@@ -5895,7 +5918,7 @@ span.tag-reports-input[contenteditable]:empty::before {
 }
 
 .respond-calls-input:focus {
-    outline: solid 3px var(--color-4);
+    outline: solid 3px #909296;
 }
 
 .respond-calls-responses {
@@ -5913,7 +5936,7 @@ span.tag-reports-input[contenteditable]:empty::before {
 
 .offenses-search-area {
     width: 95%;
-    border: 2px solid var(--color-4);
+    border: 2px solid #909296;
     height: 3vh;
     margin: 1.5vh auto 0vh;
     display: flex;
@@ -5944,7 +5967,7 @@ span.tag-reports-input[contenteditable]:empty::before {
 
     width: 750px;
     height: 375px;
-    background: var(--color-5);
+    background: #141517;
     border: 1px solid white;
 }
 
@@ -6036,15 +6059,16 @@ span.tag-reports-input[contenteditable]:empty::before {
 }
 
 .dispatch-reply:hover {
-    background-color: var(--color-1);
+    background-color: #495057;
 }
 .display_hidden{
     display: none;
 }
 
 .cams-page-container {
-    background-color: var(--color-9);
-    border-radius: 15px;
+    background-color: #373A40;
+    border: 4px solid #c1c2c55d;
+    border-radius: 25px;
     position: absolute; 
     width: 96.5%;
     height: 96.5%;
@@ -6055,8 +6079,8 @@ span.tag-reports-input[contenteditable]:empty::before {
 }
 
 .cams-container {
-    background-color: var(--color-1);
-    border: 2px solid var(--color-3);
+    background-color: #495057;
+    border: 1px solid #c1c2c55d;
     display: flex;
     flex-direction: column;
     height: 80.7vh;
@@ -6079,7 +6103,7 @@ span.tag-reports-input[contenteditable]:empty::before {
 }
 
 .cams-items {
-    background-color: var(--color-5);
+    background-color: #141517;
     height: auto; 
     padding: 10px;
     text-align: center;
@@ -6099,12 +6123,12 @@ span.tag-reports-input[contenteditable]:empty::before {
 }
 
 .cams-items:hover {
-    background-color: var(--color-3);
+    background-color: #909296;
 }
 
 .weapons-container {
-    background-color: var(--color-1);
-    border: 2px solid var(--color-3);
+    background-color: #495057;
+    border: 1px solid #c1c2c55d;
     display: flex;
     flex-direction: column;
     height: 80.7vh;
@@ -6114,7 +6138,7 @@ span.tag-reports-input[contenteditable]:empty::before {
 }
 
 .weapons-search-title {
-    background-color: var(--color-4);
+    background-color: #909296;
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -6130,11 +6154,11 @@ span.tag-reports-input[contenteditable]:empty::before {
 }
 
 .weapons-search-title:hover {
-    background-color: var(--color-3);
+    background-color: #909296;
 }
 
 .weapons-search-input {
-    background-color: var(--color-3);
+    background-color: #909296;
     color: white;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -6174,8 +6198,8 @@ span.tag-reports-input[contenteditable]:empty::before {
 }
 
 .weapon-information-container {
-    background-color: var(--color-1);
-    border: 2px solid var(--color-3);
+    background-color: #495057;
+    border: 1px solid #c1c2c55d;
     display: flex;
     flex-direction: column;
     height: 80.7vh;
@@ -6228,7 +6252,7 @@ span.tag-reports-input[contenteditable]:empty::before {
 }
 
 .weapon-information-title {
-    background-color: var(--color-4);
+    background-color: #909296;
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -6309,7 +6333,7 @@ span.tag-reports-input[contenteditable]:empty::before {
 }
 
 .weapon-info-line {
-    background-color: var(--color-3);
+    background-color: #909296;
     height: 2px;
     margin-left: 10px;
     margin-bottom: 10px;
@@ -6395,7 +6419,7 @@ span.tag-reports-input[contenteditable]:empty::before {
     outline: none;
     min-height: 30.9vh;
     resize: none;
-    background-color: var(--color-5);
+    background-color: #141517;
     color: white;
     font-size: 16px;
     padding: 10px;
@@ -6436,7 +6460,7 @@ span.tag-reports-input[contenteditable]:empty::before {
 }
 
 .weapons-item {
-    background-color: var(--color-5);
+    background-color: #141517;
     width: 100%;
     height: 9vh;
     margin: auto;
@@ -6448,7 +6472,7 @@ span.tag-reports-input[contenteditable]:empty::before {
 }
 
 .weapons-item:hover {
-    background-color: var(--color-3);
+    background-color: #909296;
 }
 
 .weapons-image {
@@ -6527,8 +6551,8 @@ input[type="range"].vehicle-info-points-input::-moz-range-track {
     width: fit-content;
     padding: 2px;
     margin: 0;
-    border: 1px solid var(--color-3);
-    background: var(--color-5);
+    border: 1px solid #909296;
+    background: #141517;
     z-index: 100;
     border-radius: 3px;
     box-shadow: 1px 1px 4px rgba(0,0,0,.2);
@@ -6605,8 +6629,9 @@ input[type="range"].vehicle-info-points-input::-moz-range-track {
 }
 
 .map-page-container  {
-    background-color: var(--color-9);
-    border-radius: 15px;
+    background-color: #373A40;
+    border: 4px solid #c1c2c55d;
+    border-radius: 25px;
     position: absolute; 
     width: 96.5%;
     height: 96.5%;
@@ -6616,8 +6641,8 @@ input[type="range"].vehicle-info-points-input::-moz-range-track {
 }
 
 .calls-container {
-    background-color: var(--color-1);
-    border: 2px solid var(--color-3);
+    background-color: #495057;
+    border: 1px solid #c1c2c55d;
     display: flex;
     flex-direction: column;
     height: 80.7vh;
@@ -6627,7 +6652,7 @@ input[type="range"].vehicle-info-points-input::-moz-range-track {
 }
 
 .calls-search-title {
-    background-color: var(--color-4);
+    background-color: #909296;
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -6643,11 +6668,11 @@ input[type="range"].vehicle-info-points-input::-moz-range-track {
 }
 
 .calls-search-title:hover {
-    background-color: var(--color-3);
+    background-color: #909296;
 }
 
 .calls-search-input {
-    background-color: var(--color-3);
+    background-color: #909296;
     color: white;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -6676,8 +6701,8 @@ input[type="range"].vehicle-info-points-input::-moz-range-track {
 }
 
 .map-container {
-    background-color: var(--color-1);
-    border: 2px solid var(--color-3);
+    background-color: #495057;
+    border: 1px solid #c1c2c55d;
     display: flex;
     flex-direction: column;
     height: 80.7vh;
@@ -6710,7 +6735,7 @@ input[type="range"].vehicle-info-points-input::-moz-range-track {
 }
 
 .map-title {
-    background-color: var(--color-4);
+    background-color: #909296;
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -6728,11 +6753,11 @@ input[type="range"].vehicle-info-points-input::-moz-range-track {
 }
 
 .map-item {
-    border: 2px solid var(--color-3);
+    border: 1px solid #c1c2c55d;
     position: absolute;
-    width: 58%;
+    width: 55%;
     height: 88.5%;
-    left: 40.6%;
+    left: 42.6%;
     top: 8%;
     margin-bottom: 15px;
 }
