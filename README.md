@@ -1,10 +1,11 @@
 # My Css Edit
 -LSPD
-![image](https://github.com/ItzMuri/ps-mdt/assets/88394932/9ee0a5e5-c5ef-49ff-844b-f10126750f29)
--BCSO
-![image](https://github.com/ItzMuri/ps-mdt/assets/88394932/52d4aaac-82c7-41e1-b790-9f44f03a7685)
--EMS
-![image](https://github.com/ItzMuri/ps-mdt/assets/88394932/437e22a6-11d3-42ab-a1b9-509fec89b3bf)
+- ![image](https://github.com/ItzMuri/ps-mdt/assets/88394932/eb7d0e64-3fda-4c53-870d-5273ad75b99f)
+
+- ![image](https://github.com/ItzMuri/ps-mdt/assets/88394932/cd15d30e-d28e-4aa6-9f88-c0c7c63ac876)
+
+- ![image](https://github.com/ItzMuri/ps-mdt/assets/88394932/5af1b1c3-de4d-40cf-a600-262699558d3f)
+
 
 # Project Sloth MDT
 
