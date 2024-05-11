@@ -13,6 +13,8 @@
     --color-10: #8f741b;
 }
 
+
+
 body {
     font-family: 'Montserrat', sans-serif;
     overflow: hidden;
@@ -43,10 +45,12 @@ input::-webkit-inner-spin-button {
     left: 2.0%;
     top: 1.5%;
     display: none;
+    
+    
 }
 
 .badge-logo {
-    margin-left: 1vh;
+    margin-left: 2vh;
     width: 12vh;
     height: 12vh;
 }
@@ -149,9 +153,8 @@ input::-webkit-inner-spin-button {
 
 .stafflogs-page-container  {
     background-color: #373A40;
-    border: 4px solid #c1c2c55d;
     border-radius: 25px;
-    border: 4px solid #c1c2c55d;
+    border: 5px solid #c1c2c55d;
     position: absolute; 
     width: 96.5%;
     height: 96.5%;
@@ -176,12 +179,12 @@ input::-webkit-inner-spin-button {
 .header {
     height: 6vh;
     background-color: #495057;
-    border: 5px solid #c1c2c55d;
+    box-shadow:1px 1px 10px #09b18ad5;
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
     width: 96.5%;
     position: absolute;
-    top: 3vh;
+    top: 3.5vh;
     display: flex;
     align-items: center;
     user-select: none;
@@ -197,12 +200,11 @@ input::-webkit-inner-spin-button {
 
 .header-middle {
     background-color: #38d9a979;
-    border: 4px solid #c1c2c55d;
-    border-radius: 25px;
-    border: 5px solid #c1c2c55d;
+    border: 1px solid #c1c2c55d;
+    border-radius: 3px;
     width: fit-content;
     height: 3.5vh;
-    padding: 8px;
+    padding: 5px;
     padding-left: 20px;
     padding-right: 20px;
     display: flex;
@@ -211,7 +213,6 @@ input::-webkit-inner-spin-button {
     align-items: normal;
     color: white;
     margin: auto;
-    margin-top: -0px;
     font-size: 15px;
 }
 
@@ -234,7 +235,7 @@ input::-webkit-inner-spin-button {
 }
 
 .nav-menu {
-    background-color: #495057;
+    background-color: #49505757;
     min-width: 25.5vh;
     height: 97.6%;
     display: flex;
@@ -242,17 +243,16 @@ input::-webkit-inner-spin-button {
     user-select: none;
     margin-top: 11px;
     margin-left: 8px;
-     border: 1px solid #c1c2c5a9;
+    border: 1px solid #c1c2c5a9;
     border-bottom-left-radius: 22px;
 }
 
 .nav-item {
-    background-color: #141517;
+    background-color: #cecece4b;
     margin-top: 10px;
     padding: 10px;
-    border: 2px solid #c1c2c5a9;
-    border: 4px solid #c1c2c55d;
-    border-radius: 25px;
+    border: 1px solid #c1c2c5a9;
+    border-radius: 1px;
     color: white;
     margin-right: 6px;
     margin-left: 6px;
@@ -261,11 +261,12 @@ input::-webkit-inner-spin-button {
 }
 
 .nav-item:hover {
-    background-color: #909296;
+    background: radial-gradient(rgba(0, 248, 185, 0.55) 0%, rgba(0, 248, 185, 0.22) 100%);
+    box-shadow: 1px 1px 4px #1df0bb;
 }
 
 .active-nav {
-    background-color:#20c996a8;
+    background: radial-gradient(rgba(0, 248, 185, 0.55) 0%, rgba(0, 248, 185, 0.22) 100%);
 }
 
 .warrants-container {
@@ -280,7 +281,7 @@ input::-webkit-inner-spin-button {
 }
 
 .warrants-title {
-    background-color: #909296;
+    background: radial-gradient(rgba(0, 248, 185, 0.55) 0%, rgba(0, 248, 185, 0.22) 100%);
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -311,7 +312,9 @@ input::-webkit-inner-spin-button {
 }
 
 .warrants-item {
-    background-color: #141517;
+    background: radial-gradient(rgba(0, 248, 185, 0.55) 0%, rgba(0, 248, 185, 0.22) 100%);
+    border: calc(0.092592592vh * 1.4) solid rgba(255, 255, 255, 0.15);
+    border-radius: 0vh;
     width: 100%;
     margin: auto;
     margin-bottom: 10px;
@@ -393,7 +396,7 @@ input::-webkit-inner-spin-button {
     margin-left: 10px;
     /* margin-bottom: 25px; */
     width: 100%;
-    background-color: #141517;
+    background-color: #cecece4b;
     height: 30px;
     padding: 10px;
     text-align: center;
@@ -404,7 +407,7 @@ input::-webkit-inner-spin-button {
 .quote-span {
     margin: auto;
     color: white;
-    font-size: 16px;
+    font-size: 13px;
 }
 
 .bulletin-container {
@@ -422,7 +425,7 @@ input::-webkit-inner-spin-button {
 }
 
 .bulletin-title {
-    background-color: #909296;
+    background: radial-gradient(rgba(0, 248, 185, 0.55) 0%, rgba(0, 248, 185, 0.22) 100%);
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -449,7 +452,7 @@ input::-webkit-inner-spin-button {
 }
 
 .bulletin-item {
-    background-color: #141517;
+    background-color: #cecece4b;
     width: 45vh;
     /* min-height: 7.7vh; */
     /* height: 7.7vh; */
@@ -533,7 +536,7 @@ span.bulletin-item-info[contenteditable]:empty::before {
 }
 
 .dispatch-title {
-    background-color: #909296;
+    background: radial-gradient(rgba(0, 248, 185, 0.55) 0%, rgba(0, 248, 185, 0.22) 100%);
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -549,7 +552,7 @@ span.bulletin-item-info[contenteditable]:empty::before {
 }
 
 .active-unit-title {
-    background-color: #909296;
+    background: radial-gradient(rgba(0, 248, 185, 0.55) 0%, rgba(0, 248, 185, 0.22) 100%);
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -587,7 +590,7 @@ span.bulletin-item-info[contenteditable]:empty::before {
 }
 
 .calls-title {
-    background-color: #909296;
+    background: radial-gradient(117.32% 117.32% at 50% -13.97%, rgba(248, 105, 105, 0.55) 0%, rgba(248, 105, 105, 0.43) 100%);
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -650,7 +653,7 @@ background-color: #2589cc;
     padding-right: 10px;
     padding-left: 10px;
     /* height: 3vh; */
-    background-color: #141517;
+    background: radial-gradient(rgba(0, 248, 185, 0.55) 0%, rgba(0, 248, 185, 0.22) 100%);
     display: flex;
     align-items: center;
     margin-bottom: 5px;
@@ -668,7 +671,7 @@ background-color: #2589cc;
 
     padding: 10px;
     height: 3vh;
-    background-color: #141517;
+    background-color: #cecece4b;
     display: flex;
     align-items: center;
     margin-bottom: 5px;
@@ -765,7 +768,7 @@ background-color: #2589cc;
 
 .active-calls-item {
     height: fit-content;
-    background-color: #141517;
+    background-color: #cecece4b;
     display: flex;
     align-items: center;
     margin-bottom: 5px;
@@ -792,14 +795,15 @@ background-color: #2589cc;
 }
 
 .call-number {
-    background-color: #950909;
+    background: radial-gradient(rgba(0, 248, 185, 0.55) 0%, rgba(0, 248, 185, 0.22) 100%);
+    border: calc(0.092592592vh * 1.4) solid rgba(255, 255, 255, 0.15);
     color: white;
     font-size: 15px;
     font-weight: bolder;
     padding: 2.5px;
     padding-left: 10px;
     padding-right: 10px;
-    border-radius: 10px;
+    border-radius: 3px;
     width: fit-content;
     margin: auto;
     margin-left: .75vh;
@@ -822,7 +826,7 @@ background-color: #2589cc;
 }
 
 .call-title {
-    color: white;
+    color: #1df0bb;
     font-size: 20px;
     font-weight: bolder;
     padding: 2.5px;
@@ -842,7 +846,7 @@ background-color: #2589cc;
     font-size: 15px;
     font-weight: bolder;
     color: white;
-    background-color: #909296;
+    background: radial-gradient(117.32% 117.32% at 50% -13.97%, rgba(248, 105, 105, 0.55) 0%, rgba(248, 105, 105, 0.43) 100%);
     padding: 5px;
     padding-left: 12.5px;
     padding-right: 12.5px;
@@ -858,6 +862,7 @@ background-color: #2589cc;
     margin: auto;
     margin-top: 0vh;
     margin-left: .75vh;
+    background: linear-gradient(90deg, rgba(255,255,255,0.014443277310924318) 0%, rgba(140,140,140,1) 33%, rgba(140,140,140,1) 66%, rgba(255,255,255,0) 100%);
     padding-bottom: .75vh;
 }
 
@@ -915,7 +920,7 @@ a {
 
 
 .profile-title {
-    background-color: #909296;
+    background: radial-gradient(rgba(0, 248, 185, 0.55) 0%, rgba(0, 248, 185, 0.22) 100%);
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -975,7 +980,9 @@ a {
 }
 
 .profile-item {
-    background-color: #141517;
+    background: linear-gradient(90deg, rgba(255,255,255,0.014443277310924318) 0%, rgba(140,140,140,1) 33%, rgba(181,181,181,1) 66%, rgba(255,255,255,0) 100%);
+    border: calc(0.092592592vh * 1.4) solid rgba(255, 255, 255, 0.15);
+    border-radius: 0vh;
     width: 100%;
     height: 12vh;
     margin: auto;
@@ -987,7 +994,9 @@ a {
 }
 
 .profile-item:hover {
-    background-color: #909296;
+    background: radial-gradient(rgba(0, 248, 185, 0.55) 0%, rgba(0, 248, 185, 0.22) 100%);
+    border: calc(0.092592592vh * 1.4) solid rgba(255, 255, 255, 0.15);
+    border-radius: 0vh;
 }
 
 .profile-image {
@@ -1059,7 +1068,7 @@ a {
 }
 
 .manage-profile-title {
-    background-color: #909296;
+    background: radial-gradient(rgba(0, 248, 185, 0.55) 0%, rgba(0, 248, 185, 0.22) 100%);
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -1075,7 +1084,7 @@ a {
 }
 
 .manage-profile-editing-title {
-    background-color: #909296;
+    background: radial-gradient(rgba(0, 248, 185, 0.55) 0%, rgba(0, 248, 185, 0.22) 100%);
     color: white;
     font-size: 15px;
     font-weight: lighter;
@@ -1275,7 +1284,7 @@ a {
     outline: none;
     height: 100%;
     resize: none;
-    background-color: #141517;
+    background-color: #cecece4b;
     color: white;
     font-size: 16px;
     padding: 10px;
@@ -1308,7 +1317,7 @@ a {
 }
 
 .license-title {
-    background-color: #909296;
+    background: radial-gradient(rgba(0, 248, 185, 0.55) 0%, rgba(0, 248, 185, 0.22) 100%);
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -1362,7 +1371,7 @@ a {
 }
 
 .tags-title {
-    background-color: #909296;
+    background: radial-gradient(rgba(0, 248, 185, 0.55) 0%, rgba(0, 248, 185, 0.22) 100%);
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -1416,10 +1425,10 @@ a {
     padding-left: 8px;
     padding-right: 8px;
     border-radius: 10px;
-    color: black;
+    color: white;
     font-size: 12px;
     font-weight: 600;
-    background-color: white;
+    background: radial-gradient(rgba(0, 248, 185, 0.55) 0%, rgba(0, 248, 185, 0.22) 100%);
     user-select: none;
     width: fit-content;
 }
@@ -1462,7 +1471,7 @@ span.tag-input[contenteditable]:empty::before {
 }
 
 .vehs-title {
-    background-color: #909296;
+    background: radial-gradient(rgba(0, 248, 185, 0.55) 0%, rgba(0, 248, 185, 0.22) 100%);
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -1516,7 +1525,7 @@ span.tag-input[contenteditable]:empty::before {
 }
 
 .houses-title {
-    background-color: #909296;
+    background: radial-gradient(rgba(0, 248, 185, 0.55) 0%, rgba(0, 248, 185, 0.22) 100%);
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -1569,7 +1578,7 @@ span.tag-input[contenteditable]:empty::before {
 }
 
 .gallery-title {
-    background-color: #909296;
+    background: radial-gradient(rgba(0, 248, 185, 0.55) 0%, rgba(0, 248, 185, 0.22) 100%);
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -1627,7 +1636,7 @@ span.tag-input[contenteditable]:empty::before {
 }
 
 .convictions-known-container, .incidents-known-container {
-    background-color: #141517;
+    background-color: #cecece4b;
     width: 95vh;
     height: 45vh;
     margin: auto;
@@ -1671,7 +1680,7 @@ span.tag-input[contenteditable]:empty::before {
 }
 
 .convictions-title:hover {
-    background-color: #909296;
+    background: radial-gradient(rgba(0, 248, 185, 0.55) 0%, rgba(0, 248, 185, 0.22) 100%);
 }
 
 .convictions-holder {
@@ -1701,7 +1710,7 @@ span.tag-input[contenteditable]:empty::before {
 }
 
 .profile-incidents-title:hover {
-    background-color: #909296;
+    background: radial-gradient(rgba(0, 248, 185, 0.55) 0%, rgba(0, 248, 185, 0.22) 100%);
 }
 
 .profile-incidents-holder {
@@ -1778,7 +1787,7 @@ span.tag-input[contenteditable]:empty::before {
     padding: 2px;
     margin: 0;
     border: 1px solid #909296;
-    background: #141517;
+    background: #cecece4b;
     z-index: 9999;
     border-radius: 3px;
     box-shadow: 1px 1px 4px rgba(0,0,0,.2);
@@ -2032,8 +2041,8 @@ span.tag-input[contenteditable]:empty::before {
 }
 
 .incidents-item {
-    background-color: #141517;
-    width: 100%;
+    background-color: #cecece4b;
+    width: 99%;
     height: 5.5vh;
     margin: auto;
     margin-bottom: 10px;
@@ -2041,10 +2050,13 @@ span.tag-input[contenteditable]:empty::before {
     display: flex;
     user-select: none;
     flex-direction: column;
+    border: calc(0.092592592vh * 1.4) solid rgba(255, 255, 255, 0.15);
+    border-radius: 0vh;
 }
 
 .incidents-item:hover {
-    background-color: #909296;
+    background: radial-gradient(rgba(0, 248, 185, 0.55) 0%, rgba(0, 248, 185, 0.22) 100%);
+box-shadow: 1px 1px 4px #1df0bb;
 }
 
 .incidents-top-holder {
@@ -2086,8 +2098,9 @@ span.tag-input[contenteditable]:empty::before {
 
 .incedent-report-id {
     font-size: 14px;
-    font-weight: lighter;
-    color: white;
+    font-weight: 900;
+    color: black;
+    text-shadow: 1px 1px 3px #1df0bb;
     margin: auto;
     margin-left: 5px;
     margin-bottom: 5px;
@@ -2095,8 +2108,9 @@ span.tag-input[contenteditable]:empty::before {
 
 .incedent-report-time-ago {
     font-size: 14px;
-    font-weight: lighter;
-    color: white;
+    font-weight: 900;
+    color: black;
+    text-shadow: 1px 1px 3px #1df0bb;
     margin: auto;
     margin-right: 5px;
     margin-bottom: 5px;
@@ -2116,7 +2130,7 @@ span.tag-input[contenteditable]:empty::before {
 }
 
 .manage-incidents-title {
-    background-color: #909296;
+    background: radial-gradient(rgba(0, 248, 185, 0.55) 0%, rgba(0, 248, 185, 0.22) 100%);
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -2224,7 +2238,7 @@ span.tag-input[contenteditable]:empty::before {
     outline: none;
     min-height: 30vh;
     resize: none;
-    background-color: #141517;
+    background-color: #cecece4b;
     color: white;
     font-size: 16px;
     padding: 10px;
@@ -2248,7 +2262,7 @@ span.tag-input[contenteditable]:empty::before {
 }
 
 .manage-incidents-tags-title {
-    background-color: #909296;
+    background: radial-gradient(rgba(0, 248, 185, 0.55) 0%, rgba(0, 248, 185, 0.22) 100%);
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -2265,7 +2279,7 @@ span.tag-input[contenteditable]:empty::before {
 }
 
 .manage-incidents-tags-add-btn:hover {
-    background-color: #909296;
+    background: radial-gradient(rgba(0, 248, 185, 0.55) 0%, rgba(0, 248, 185, 0.22) 100%);
 }
 
 .manage-incidents-tags-add-btn {
@@ -2331,7 +2345,7 @@ span.tag-input[contenteditable]:empty::before {
 }
 
 .manage-incidents-officers-title {
-    background-color: #909296;
+    background: radial-gradient(rgba(0, 248, 185, 0.55) 0%, rgba(0, 248, 185, 0.22) 100%);
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -2395,7 +2409,7 @@ span.tag-input[contenteditable]:empty::before {
 }
 
 .manage-incidents-civilians-title {
-    background-color: #909296;
+    background: radial-gradient(rgba(0, 248, 185, 0.55) 0%, rgba(0, 248, 185, 0.22) 100%);
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -2429,7 +2443,7 @@ span.tag-input[contenteditable]:empty::before {
 }
 
 .manage-incidents-civilians-add-btn:hover {
-    background-color: #909296;
+    background: radial-gradient(rgba(0, 248, 185, 0.55) 0%, rgba(0, 248, 185, 0.22) 100%);
 }
 
 .manage-incidents-civilians-holder {
@@ -2459,7 +2473,7 @@ span.tag-input[contenteditable]:empty::before {
 }
 
 .manage-incidents-evidence-title {
-    background-color: #909296;
+    background: radial-gradient(rgba(0, 248, 185, 0.55) 0%, rgba(0, 248, 185, 0.22) 100%);
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -2548,7 +2562,7 @@ span.tag-incident-input[contenteditable]:empty::before {
 }
 
 .associated-incidents-title {
-    background-color: #909296;
+    background: radial-gradient(rgba(0, 248, 185, 0.55) 0%, rgba(0, 248, 185, 0.22) 100%);
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -2564,7 +2578,7 @@ span.tag-incident-input[contenteditable]:empty::before {
 }
 
 .associated-incidents-title:hover {
-    background-color: #909296;
+    background: radial-gradient(rgba(0, 248, 185, 0.55) 0%, rgba(0, 248, 185, 0.22) 100%);
 }
 
 .associated-incidents-tags-container {
@@ -2584,7 +2598,7 @@ span.tag-incident-input[contenteditable]:empty::before {
 }
 
 .associated-incidents-tags-title {
-    background-color: #909296;
+    background: radial-gradient(rgba(0, 248, 185, 0.55) 0%, rgba(0, 248, 185, 0.22) 100%);
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -2601,7 +2615,7 @@ span.tag-incident-input[contenteditable]:empty::before {
 }
 
 .associated-incidents-tags-add-btn:hover {
-    background-color: #909296;
+    background: radial-gradient(rgba(0, 248, 185, 0.55) 0%, rgba(0, 248, 185, 0.22) 100%);
 }
 
 .associated-incidents-tags-add-btn {
@@ -2641,10 +2655,10 @@ span.tag-incident-input[contenteditable]:empty::before {
     padding-left: 8px;
     padding-right: 8px;
     border-radius: 10px;
-    color: black;
+    color: white;
     font-size: 12px;
     font-weight: 600;
-    background-color: white;
+    background: radial-gradient(rgba(0, 248, 185, 0.55) 0%, rgba(0, 248, 185, 0.22) 100%);
     user-select: none;
     width: fit-content;
 }
@@ -2745,7 +2759,7 @@ span.tag-incident-input[contenteditable]:empty::before {
     max-height: 14vh;
     user-select: none;
     display: flex;
-    background-color: #141517;
+    background-color: #cecece4b;
 }
 
 .modify-charges-label {
@@ -2889,7 +2903,7 @@ span.tag-incident-input[contenteditable]:empty::before {
 }
 
 .incidents-person-search-container {
-    background-color: #141517;
+    background-color: #cecece4b;
     width: 95vh;
     height: 45vh;
     margin: auto;
@@ -3096,7 +3110,7 @@ span.tag-incident-input[contenteditable]:empty::before {
 }
 
 .bolos-item {
-    background-color: #141517;
+    background-color: #cecece4b;
     width: 100%;
     height: 5.5vh;
     margin: auto;
@@ -3121,7 +3135,7 @@ span.tag-incident-input[contenteditable]:empty::before {
 }
 
 .manage-bolos-title {
-    background-color: #909296;
+    background: radial-gradient(rgba(0, 248, 185, 0.55) 0%, rgba(0, 248, 185, 0.22) 100%);
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -3140,7 +3154,7 @@ span.tag-incident-input[contenteditable]:empty::before {
 }
 
 .manage-bolos-title-tag {
-    background-color: #909296;
+    background: radial-gradient(rgba(0, 248, 185, 0.55) 0%, rgba(0, 248, 185, 0.22) 100%);
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -3157,7 +3171,7 @@ span.tag-incident-input[contenteditable]:empty::before {
 }
 
 .manage-bolos-title:hover {
-    background-color: #909296;
+    background: radial-gradient(rgba(0, 248, 185, 0.55) 0%, rgba(0, 248, 185, 0.22) 100%);
 }
 
 
@@ -3337,7 +3351,7 @@ span.tag-incident-input[contenteditable]:empty::before {
     outline: none;
     height: 100%;
     resize: none;
-    background-color: #141517;
+    background-color: #cecece4b;
     color: white;
     font-size: 16px;
     padding: 10px;
@@ -3422,7 +3436,7 @@ span.tag-incident-input[contenteditable]:empty::before {
 }
 
 .bolo-item {
-    background-color: #141517;
+    background-color: #cecece4b;
     width: 100%;
     margin: auto;
     margin-bottom: 10px;
@@ -3504,11 +3518,11 @@ span.tag-incident-input[contenteditable]:empty::before {
 }
 
 .bolos-search-refresh:hover {
-    background-color: #aa891c;
+    background: radial-gradient(rgba(0, 248, 185, 0.55) 0%, rgba(0, 248, 185, 0.22) 100%);
 }
 
 .bolos-search-title {
-    background-color: #909296;
+    background: radial-gradient(rgba(0, 248, 185, 0.55) 0%, rgba(0, 248, 185, 0.22) 100%);
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -3526,7 +3540,7 @@ span.tag-incident-input[contenteditable]:empty::before {
 }
 
 .bolos-search-title:hover {
-    background-color: #909296;
+    background: radial-gradient(rgba(0, 248, 185, 0.55) 0%, rgba(0, 248, 185, 0.22) 100%);
 }
 
 .manage-bolos-tags-add-btn {
@@ -3965,7 +3979,7 @@ span.officer-tag-bolo-input[contenteditable]:empty::before {
 }
 
 .reports-search-title {
-    background-color: #909296;
+    background: radial-gradient(rgba(0, 248, 185, 0.55) 0%, rgba(0, 248, 185, 0.22) 100%);
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -3983,7 +3997,7 @@ span.officer-tag-bolo-input[contenteditable]:empty::before {
 }
 
 .reports-search-title:hover {
-    background-color: #909296;
+    background: radial-gradient(rgba(0, 248, 185, 0.55) 0%, rgba(0, 248, 185, 0.22) 100%);
 }
 
 .manage-reports-container {
@@ -4000,7 +4014,7 @@ span.officer-tag-bolo-input[contenteditable]:empty::before {
 }
 
 .manage-reports-title {
-    background-color: #909296;
+    background: radial-gradient(rgba(0, 248, 185, 0.55) 0%, rgba(0, 248, 185, 0.22) 100%);
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -4019,7 +4033,7 @@ span.officer-tag-bolo-input[contenteditable]:empty::before {
 }
 
 .manage-reports-title-tag {
-    background-color: #909296;
+    background: radial-gradient(rgba(0, 248, 185, 0.55) 0%, rgba(0, 248, 185, 0.22) 100%);
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -4036,7 +4050,7 @@ span.officer-tag-bolo-input[contenteditable]:empty::before {
 }
 
 .manage-reports-title:hover {
-    background-color: #909296;
+    background: radial-gradient(rgba(0, 248, 185, 0.55) 0%, rgba(0, 248, 185, 0.22) 100%);
 }
 
 
@@ -4257,7 +4271,7 @@ span.officer-tag-bolo-input[contenteditable]:empty::before {
     outline: none;
     height: 100%;
     resize: none;
-    background-color: #141517;
+    background-color: #cecece4b;
     color: white;
     font-size: 16px;
     padding: 10px;
@@ -4464,7 +4478,7 @@ span.officer-tag-bolo-input[contenteditable]:empty::before {
 }
 
 .reports-item {
-    background-color: #141517;
+    background-color: #cecece4b;
     width: 100%;
     margin: auto;
     margin-bottom: 10px;
@@ -4587,11 +4601,11 @@ span.tag-reports-input[contenteditable]:empty::before {
 }
 
 .dmv-search-refresh:hover {
-    background-color: #aa891c;
+    background: radial-gradient(rgba(0, 248, 185, 0.55) 0%, rgba(0, 248, 185, 0.22) 100%);
 }
 
 .dmv-search-title {
-    background-color: #909296;
+    background: radial-gradient(rgba(0, 248, 185, 0.55) 0%, rgba(0, 248, 185, 0.22) 100%);
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -4607,7 +4621,7 @@ span.tag-reports-input[contenteditable]:empty::before {
 }
 
 .dmv-search-title:hover {
-    background-color: #909296;
+    background: radial-gradient(rgba(0, 248, 185, 0.55) 0%, rgba(0, 248, 185, 0.22) 100%);
 }
 
 .dmv-search-input {
@@ -4680,15 +4694,15 @@ span.tag-reports-input[contenteditable]:empty::before {
 }
 
 .vehicle-information-save:hover {
-    background-color: #1caa28;
+    background: radial-gradient(rgba(0, 248, 185, 0.55) 0%, rgba(0, 248, 185, 0.22) 100%);
 }
 
 .add-charge:hover {
-    background-color: #1caa28;
+    background: radial-gradient(rgba(0, 248, 185, 0.55) 0%, rgba(0, 248, 185, 0.22) 100%);
 }
 
 .vehicle-information-title {
-    background-color: #909296;
+    background: radial-gradient(rgba(0, 248, 185, 0.55) 0%, rgba(0, 248, 185, 0.22) 100%);
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -4706,7 +4720,7 @@ span.tag-reports-input[contenteditable]:empty::before {
 }
 
 .dmv-item {
-    background-color: #141517;
+    background-color: #cecece4b;
     width: 100%;
     height: 9vh;
     margin: auto;
@@ -4911,7 +4925,7 @@ span.tag-reports-input[contenteditable]:empty::before {
 }
 
 .vehicle-info-tags-title {
-    background-color: #909296;
+   background: radial-gradient(rgba(0, 248, 185, 0.55) 0%, rgba(0, 248, 185, 0.22) 100%);
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -4984,7 +4998,7 @@ span.tag-reports-input[contenteditable]:empty::before {
     outline: none;
     min-height: 26.9vh;
     resize: none;
-    background-color: #141517;
+    background-color: #cecece4b;
     color: white;
     font-size: 16px;
     padding: 10px;
@@ -5050,7 +5064,7 @@ span.tag-reports-input[contenteditable]:empty::before {
 
 .stafflogs-box-title {
     align-self: center;
-    background-color: #909296;
+    background: radial-gradient(rgba(0, 248, 185, 0.55) 0%, rgba(0, 248, 185, 0.22) 100%);
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -5102,7 +5116,7 @@ span.tag-reports-input[contenteditable]:empty::before {
 
 .leaderboard-title {
     align-self: center;
-    background-color: #909296;
+    background: radial-gradient(rgba(0, 248, 185, 0.55) 0%, rgba(0, 248, 185, 0.22) 100%);
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -5288,7 +5302,7 @@ span.tag-reports-input[contenteditable]:empty::before {
 }
 
 .incidents-charges-table-container {
-    background-color: #141517;
+    background-color: #cecece4b;
     width: 155vh;
     height: 85vh;
     margin: auto;
@@ -5328,7 +5342,7 @@ span.tag-reports-input[contenteditable]:empty::before {
 .incidents-charges-title-description {
     color: white;
     margin: auto;
-    background-color: #141517;
+    background-color: #cecece4b;
     text-align: left;
     font-size: 17px;
     padding: .5vh;
@@ -5337,7 +5351,7 @@ span.tag-reports-input[contenteditable]:empty::before {
 }
 
 .manage-incidents-editing-title {
-    background-color: #909296;
+    background: radial-gradient(rgba(0, 248, 185, 0.55) 0%, rgba(0, 248, 185, 0.22) 100%);
     color: white;
     font-size: 15px;
     font-weight: lighter;
@@ -5526,7 +5540,7 @@ span.tag-reports-input[contenteditable]:empty::before {
 }
 
 .radio-inner-container {
-    background-color: #141517;
+    background-color: #cecece4b;
     width: 30vh;
     height: 17.5vh;
     margin: auto;
@@ -5598,7 +5612,7 @@ span.tag-reports-input[contenteditable]:empty::before {
 }
 
 .callsign-inner-container {
-    background-color: #141517;
+    background-color: #cecece4b;
     width: 30vh;
     height: 17.5vh;
     margin: auto;
@@ -5806,7 +5820,7 @@ span.tag-reports-input[contenteditable]:empty::before {
 .dispatch-attached-unit-item {
     padding: 10px;
     height: 3vh;
-    background-color: #141517;
+    background-color: #cecece4b;
     display: flex;
     align-items: center;
     margin-bottom: 5px;
@@ -5825,7 +5839,7 @@ span.tag-reports-input[contenteditable]:empty::before {
 }
 
 .incidents-title {
-    background-color: #909296;
+    background: radial-gradient(rgba(0, 248, 185, 0.55) 0%, rgba(0, 248, 185, 0.22) 100%);
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -5875,7 +5889,7 @@ span.tag-reports-input[contenteditable]:empty::before {
 }
 
 .respond-calls-container {
-    background-color: #141517;
+    background-color: #cecece4b;
     width: 70vh;
     min-height: 30vh;
     max-height: 40vh;
@@ -5967,7 +5981,7 @@ span.tag-reports-input[contenteditable]:empty::before {
 
     width: 750px;
     height: 375px;
-    background: #141517;
+    background: #cecece4b;
     border: 1px solid white;
 }
 
@@ -6103,7 +6117,9 @@ span.tag-reports-input[contenteditable]:empty::before {
 }
 
 .cams-items {
-    background-color: #141517;
+    background: radial-gradient(83.87% 1043.26% at 50% 50%, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.08) 100%);
+    border: calc(0.092592592vh * 1.4) solid rgba(255, 255, 255, 0.15);
+    border-radius: 0vh;
     height: auto; 
     padding: 10px;
     text-align: center;
@@ -6123,7 +6139,7 @@ span.tag-reports-input[contenteditable]:empty::before {
 }
 
 .cams-items:hover {
-    background-color: #909296;
+    background: radial-gradient(rgba(0, 248, 185, 0.55) 0%, rgba(0, 248, 185, 0.22) 100%);
 }
 
 .weapons-container {
@@ -6138,7 +6154,7 @@ span.tag-reports-input[contenteditable]:empty::before {
 }
 
 .weapons-search-title {
-    background-color: #909296;
+    background: radial-gradient(rgba(0, 248, 185, 0.55) 0%, rgba(0, 248, 185, 0.22) 100%);
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -6252,7 +6268,7 @@ span.tag-reports-input[contenteditable]:empty::before {
 }
 
 .weapon-information-title {
-    background-color: #909296;
+    background: radial-gradient(rgba(0, 248, 185, 0.55) 0%, rgba(0, 248, 185, 0.22) 100%);
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -6419,7 +6435,7 @@ span.tag-reports-input[contenteditable]:empty::before {
     outline: none;
     min-height: 30.9vh;
     resize: none;
-    background-color: #141517;
+    background-color: #cecece4b;
     color: white;
     font-size: 16px;
     padding: 10px;
@@ -6460,7 +6476,7 @@ span.tag-reports-input[contenteditable]:empty::before {
 }
 
 .weapons-item {
-    background-color: #141517;
+    background-color: #cecece4b;
     width: 100%;
     height: 9vh;
     margin: auto;
@@ -6552,7 +6568,7 @@ input[type="range"].vehicle-info-points-input::-moz-range-track {
     padding: 2px;
     margin: 0;
     border: 1px solid #909296;
-    background: #141517;
+    background: #cecece4b;
     z-index: 100;
     border-radius: 3px;
     box-shadow: 1px 1px 4px rgba(0,0,0,.2);
@@ -6652,7 +6668,7 @@ input[type="range"].vehicle-info-points-input::-moz-range-track {
 }
 
 .calls-search-title {
-    background-color: #909296;
+    background: radial-gradient(rgba(0, 248, 185, 0.55) 0%, rgba(0, 248, 185, 0.22) 100%);
     color: white;
     font-size: 18px;
     font-weight: bolder;
@@ -6731,11 +6747,11 @@ input[type="range"].vehicle-info-points-input::-moz-range-track {
 }
 
 .map-clear:hover {
-    background-color: #aa1c1c;
+    background: radial-gradient(rgba(0, 248, 185, 0.55) 0%, rgba(0, 248, 185, 0.22) 100%);
 }
 
 .map-title {
-    background-color: #909296;
+    background: radial-gradient(rgba(0, 248, 185, 0.55) 0%, rgba(0, 248, 185, 0.22) 100%);
     color: white;
     font-size: 18px;
     font-weight: bolder;
